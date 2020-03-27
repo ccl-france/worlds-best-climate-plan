@@ -9,10 +9,11 @@ const Badge = ({ children }) => (
 const HowItWorks = () => (
   <div className="sm:text-lg">
     <h2 className="text-2xl md:text-center font-bold mb-4 mx-auto">
-      Sådan virker det
+      Comment ça fonctionne
     </h2>
     <p className="md:text-center max-w-xl md:mx-auto mb-16">
-      Danmark skal have en afgift på varer der er klimabelastende.
+      La France se doit d&apos;imposer une taxe sur les produits qui mettent en
+      danger le climat et donc le futur de notre planète.
       <br />
       Forureneren betaler, men uden at det rammer socialt skævt, eller at alle
       vores udledninger flyttes til udlandet.

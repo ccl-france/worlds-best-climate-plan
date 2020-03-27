@@ -5,42 +5,46 @@ import Button from './Button';
 const Letter = () => (
   <div className="relative bg-sand-100 p-10 md:p-20 mx-auto max-w-3xl rounded-sm">
     <h2 className="text-xl sm:text-2xl font-bold mb-4">
-      Der er brug for handling nu
+      Nous devons agir maintenant
     </h2>
     <p className="my-4">
-      Danmark har behov for en grøn omstilling. Jo før, jo bedre. Klimaloven er
-      en god start, men den fortæller os desværre ikke, hvordan vi når de 70
-      procent i 2030.
+      La France a besoin d&apos;une transition verte, et le plus tôt sera le
+      mieux. Les accords de Paris et le Green Deal sont des bons débuts, mais
+      ils ne nous disent pas comment ne pas atteindre les 2 degrés dans les
+      prochaines années.
     </p>
     <p className="my-4">
-      Vi foreslår en klimaløsning, som klimaeksperter og topøkonomer støtter og
-      som røde, grønne, og blå politikere kan blive enige om.
+      Nous proposons une solutions reconnue et soutenue par les meilleurs
+      experts du climat ainsi que les énonomistes et sur laquelle la gauche et
+      la droite peut se mettre d&apos;accord.
     </p>
     <p className="my-4">
-      Vi ønsker et system i balance, hvor vi som forbrugere belønnes økonomisk
-      for at købe bæredygtigt ind, og hvor virksomheder har et økonomisk
-      incitament til at producere klimavenlige produkter.
+      Nous voulons un système équilibré où nous, en tant que consommateurs,
+      sommes financièrement récompensés pour nos achats durables et où les
+      entreprises sont incitées financièrement à produire des produits
+      respectueux du climat.
     </p>
     <p className="my-4">
-      Derfor vil vi have en social retfærdig klimaafgift, som lader forureneren
-      betale, og hvor andre tiltag sørger for, at løsningen ikke rammer socialt
-      skævt, eller at vores udledninger unødigt flyttes til udlandet.
+      Par conséquent, nous voulons une taxe climatique socialement juste qui
+      impose aux pollueurs de payer et où d&apos;autres mesures garantissent que
+      la solution n&apos;affecte pas le clivage social et que nos émissions ne
+      soient pas délocalisées à l&apos;étranger.
     </p>
     <p className="my-4">
-      En bred klimaafgift gør, at Danmark gennem virksomhedernes og borgernes
-      forbrug udleder færre drivhusgasser. Det er den mest effektiv måde at
-      skabe forandring.
+      Une large taxe climatique signifie que le Danemark, à travers la
+      consommation des entreprises et des citoyens, émet moins de gaz à effet de
+      serre. C&apos;est le moyen le plus efficace de provoquer le changement.
     </p>
     <p className="my-4">
       Bag Verdens Bedste Klimaplan står Ungeklimarådet, Citizens&apos; Climate
       Lobby, Klimabevægelsen og en række ildsjæle.{' '}
       <Link to="/about-us" className="underline">
-        Læs mere om holdet
+        En savoir plus sur nous
       </Link>
     </p>
     <Button className="my-4 md:mb-0">
-      Skriv under
-      <span className="hidden sm:inline"> på borgerforslaget</span>
+      Signez la
+      <span className="hidden sm:inline"> proposition citoyenne</span>
       &nbsp;&nbsp;✍️
     </Button>
   </div>

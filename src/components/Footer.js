@@ -10,29 +10,19 @@ const Footer = () => (
       <div className="md:flex -mx-8">
         <div className="md:w-1/3 m-8">
           <Link className={LinkStyle} to="/">
-            Hjem
+            Accueil
           </Link>
           <Link className={LinkStyle} to="/about-the-plan">
-            Om planen
+            A propos du plan
           </Link>
           <Link className={LinkStyle} to="/about-us">
-            Bag planen
+            A propos de nous
           </Link>
           <Link className={LinkStyle} to="/privacy-policy">
-            Cookie- og privatlivspolitik
+            Politique de confidentialité
           </Link>
         </div>
         <div className="md:w-1/3 m-8">
-          <a
-            className={LinkStyle}
-            href="https://www.klimabevaegelsen.dk/"
-            target="blank"
-          >
-            Klimabevægelsen
-          </a>
-          <a className={LinkStyle} href="https://www.dgsb.dk/" target="blank">
-            Den Grønne Studenter Bevægelse
-          </a>
           <a
             className={LinkStyle}
             href="https://citizensclimatelobby.org/"
@@ -40,18 +30,25 @@ const Footer = () => (
           >
             Citizen&apos;s Climate Lobby
           </a>
+          <a
+            className={LinkStyle}
+            href="https://ccl-france.org/"
+            target="blank"
+          >
+            Citizen&apos;s Climate Lobby France
+          </a>
         </div>
         <div className="md:w-1/3 m-8">
           <a
             className={LinkStyle}
-            href="mailto:kontakt@verdensbedsteklimaplan.dk"
+            href="mailto:contact@lemeilleurplanclimatdumonde.fr"
           >
-            kontakt@verdensbedsteklimaplan.dk
+            contact@lemeilleurplanclimatdumonde.fr
           </a>
         </div>
       </div>
       <p className="opacity-50 text-center mt-6">
-        &copy; Verdens Bedste Klimaplan 2020
+        &copy; Revenu Climatique 2020
       </p>
     </div>
   </div>

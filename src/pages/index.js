@@ -31,12 +31,12 @@ const Index = () => {
       >
         <div className="relative mx-auto md:pt-32 p-8">
           <h1 className="text-center text-xl sm:text-2xl md:text-4xl font-bold text-sand-100 leading-none">
-            Støt en retfærdig klimaafgift
+            Soutenez un revenu écologique socialement juste
           </h1>
           <p className="max-w-xl mx-auto text-center md:text-xl my-8 text-sand-100">
-            Danmark skal have en afgift på klimabelastende varer. Forureneren
-            betaler, men uden at det rammer socialt skævt, eller at alle vores
-            udledninger flyttes til udlandet.
+            La France se doit d&apos;imposer une taxe sur les produits nuisibles
+            au climat. Forureneren betaler, men uden at det rammer socialt
+            skævt, eller at alle vores udledninger flyttes til udlandet.
           </p>
           <ModalContext.Consumer>
             {openModal => (
@@ -45,8 +45,8 @@ const Index = () => {
                 large
                 className="block mx-auto my-8 sm:my-16"
               >
-                Skriv under
-                <span className="hidden sm:inline"> på borgerforslaget</span>
+                Signez la
+                <span className="hidden sm:inline"> proposition citoyenne</span>
                 &nbsp;&nbsp;✍️
               </Button>
             )}

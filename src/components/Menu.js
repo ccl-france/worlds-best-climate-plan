@@ -5,10 +5,10 @@ import { ModalContext } from './Form/Modal';
 import Button from './Button';
 
 const pages = [
-  ['/', 'Hjem'],
-  ['/supporters', 'Støtter'],
-  ['/about-the-plan', 'Om planen'],
-  ['/about-us', 'Bag planen'],
+  ['/', 'Accueil'],
+  ['/supporters', 'Soutiens'],
+  ['/about-the-plan', 'A propos du plan'],
+  ['/about-us', 'A propos de nous'],
 ];
 
 const Menu = ({ transparent = false }) => {
@@ -31,7 +31,7 @@ const Menu = ({ transparent = false }) => {
       setBackers(
         `${new Intl.NumberFormat('da-DK').format(
           json.backers
-        )} danskere har skrevet under`
+        )} danois ont signé la pétition`
       );
     };
     fetchData();
@@ -76,7 +76,7 @@ const Menu = ({ transparent = false }) => {
           className="mr-4 md:mr-8 ml-auto xl:ml-0"
           onClick={openModal}
         >
-          Skriv&nbsp;under&nbsp;🌱
+          Soutenez&nbsp;nous&nbsp;🌱
         </Button>
       </div>
       {/* filler */}

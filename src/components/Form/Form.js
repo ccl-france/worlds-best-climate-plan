@@ -56,26 +56,26 @@ const SupportForm = ({ modal = false, closeModal, className }) => {
           validate={values => {
             const errors = {};
             if (!values.firstname) {
-              errors.firstname = 'Dette felt er påkrævet';
+              errors.firstname = 'Ce champ est obligatoire';
             }
             if (!values.lastname) {
-              errors.lastname = 'Dette felt er påkrævet';
+              errors.lastname = 'Ce champ est obligatoire';
             }
             if (!values.email) {
-              errors.email = 'Dette felt er påkrævet';
+              errors.email = 'Ce champ est obligatoire';
             } else if (
               !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
             ) {
-              errors.email = 'E-mail adressen ser ugyldig ud';
+              errors.email = 'Adresse email incorrecte';
             }
             const zipNum = parseInt(values.zip, 10);
             if (
               isNaN(zipNum) ||
-              values.zip.length !== 4 ||
-              zipNum > 9999 ||
+              values.zip.length !== 5 ||
+              zipNum > 99999 ||
               zipNum < 0
             ) {
-              errors.zip = 'Postnummeret skal bestå af 4 tal';
+              errors.zip = 'Le code postal doit être composé de 5 chiffres';
             }
             return errors;
           }}
@@ -105,41 +105,44 @@ const SupportForm = ({ modal = false, closeModal, className }) => {
               {isSubmitted && !error && (
                 <div>
                   <h2 className="text-xl font-bold mb-4 sm:text-2xl sm:text-center">
-                    Tak for hjælpen
+                    Merci de votre soutien
                   </h2>
                   <p className="mb-3 sm:mb-8 sm:text-center">
-                    Husk at tjekke din mail og bekræfte din tilmeldelse.
+                    N&apos;oubliez pas de vérifier votre adresse e-mail pour
+                    confirmer votre inscription
                   </p>
                 </div>
               )}
               {(!isSubmitted || error) && (
                 <React.Fragment>
                   <h2 className="text-xl font-bold mb-4 sm:text-2xl sm:text-center">
-                    Følg med og hjælp til
+                    Soutenez nous et restez au courant
                   </h2>
                   <p className="mb-3 text-sm sm:text-base sm:mb-8 sm:text-center">
-                    Borgerforslaget er første skridt i at indføre retfærdige klimaafgifter i Danmark. Skriv dig op til nyheder og støt
-                    kampen for at løse klimakrisen på den mest effektive og
-                    socialt retfærdige måde.
+                    Le soutien des citoyens est la première étape pour
+                    l&apos;introduction d&apos;une taxe climatique en France et
+                    dans le monde. Inscrivez vous pour recevoir des nouvelles et
+                    pour soutenir la lutte contre le réchauffement climatique et
+                    le clivage social.
                   </p>
                   {error && (
                     <div
                       className="border-2 text-red-700 border-red-700 px-4 py-3 rounded-sm mb-4 sm:mb-8"
                       role="alert"
                     >
-                      <span>Noget gik galt. Prøv ventligst igen</span>
+                      <span>Une erreur à eu lieu. Veuillez réessayer.</span>
                     </div>
                   )}
                   <div className="sm:flex sm:-mx-2">
                     <FormField
                       className="w-full sm:w-1/2 sm:mx-2"
                       name="firstname"
-                      label="Fornavn"
+                      label="Prénom"
                     />
                     <FormField
                       className="w-full sm:w-1/2 sm:mx-2"
                       name="lastname"
-                      label="Efternavn"
+                      label="Nom de famille"
                     />
                   </div>
                   <div className="sm:flex sm:-mx-2 mb-8">
@@ -152,8 +155,8 @@ const SupportForm = ({ modal = false, closeModal, className }) => {
                     <FormField
                       className="w-full sm:w-1/3 sm:mx-2"
                       name="zip"
-                      label="Postnummer"
-                      maxLength={4}
+                      label="Code postal"
+                      maxLength={5}
                     />
                   </div>
                   {isSubmitting ? (
@@ -164,7 +167,7 @@ const SupportForm = ({ modal = false, closeModal, className }) => {
                     </div>
                   ) : (
                     <Button type="submit" large className="block sm:mx-auto">
-                      Skriv dig op&nbsp;&nbsp;📮
+                      Inscription
                     </Button>
                   )}
                   {/* 
@@ -200,7 +203,7 @@ const SupportForm = ({ modal = false, closeModal, className }) => {
                   className="block my-3 sm:mt-6 cursor-pointer sm:hidden"
                   onClick={closeModal}
                 >
-                  Luk vinduet
+                  Fermer la fenetre
                 </span>
               )}
             </Form>
