@@ -1,9 +1,9 @@
 import React from 'react';
+
 import useBreakpoint from '../hooks/useBreakpoint';
 import Layout from '../components/Layout';
 import Button from '../components/Button';
 import Form from '../components/Form/Form';
-import { ModalContext } from '../components/Form/Modal';
 import SEO from '../components/SEO';
 import Letter from '../components/Letter';
 import HowItWorks from '../components/HowItWorks';
@@ -15,7 +15,7 @@ const Index = () => {
   const breakpoint = useBreakpoint();
   return (
     <Layout transparentMenu>
-      <SEO title="Verdens Bedste klimaplan" description="" />
+      <SEO title="Accueil" description="" />
       {/* Hero and letter */}
       <section
         className="pt-24 relative mb-64 bg-cover bg-green-900"
@@ -38,19 +38,19 @@ const Index = () => {
             au climat. Forureneren betaler, men uden at det rammer socialt
             skævt, eller at alle vores udledninger flyttes til udlandet.
           </p>
-          <ModalContext.Consumer>
-            {openModal => (
-              <Button
-                onClick={openModal}
-                large
-                className="block mx-auto my-8 sm:my-16"
-              >
-                Signez la
-                <span className="hidden sm:inline"> proposition citoyenne</span>
-                &nbsp;&nbsp;✍️
-              </Button>
-            )}
-          </ModalContext.Consumer>
+
+          <a
+            href="https://eci.ec.europa.eu/007/public/#/initiative"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button large className="block mx-auto my-8 sm:my-16">
+              Signez la
+              <span className="hidden sm:inline"> proposition citoyenne</span>
+              &nbsp;&nbsp;✍️
+            </Button>
+          </a>
+
           <ShareButtons />
         </div>
         {/* Letter */}

@@ -41,14 +41,14 @@ const Footer = () => (
         <div className="md:w-1/3 m-8">
           <a
             className={LinkStyle}
-            href="mailto:contact@lemeilleurplanclimatdumonde.fr"
+            href="mailto:lemeilleurplanclimatdumonde@gmail.com"
           >
-            contact@lemeilleurplanclimatdumonde.fr
+            lemeilleurplanclimatdumonde@gmail.com
           </a>
         </div>
       </div>
       <p className="opacity-50 text-center mt-6">
-        &copy; Revenu Climatique 2020
+        &copy; Le meilleur plan climat du monde - 2020
       </p>
     </div>
   </div>

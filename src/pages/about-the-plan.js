@@ -90,219 +90,140 @@ const ThePlan = () => {
   return (
     <Layout>
       <SEO
-        title="Verdens Bedste Klimaplan"
-        description="Læs her hvorfor Verdens Bedste Klimaplan giver super god mening."
+        title="Le meilleur plan climat du monde"
+        description="Pourquoi ce plan climat est il le meilleur du monde"
       />
       <section className="w-full max-w-4xl mx-auto py-16 px-6">
         <div className="max-w-2xl">
           <FootNoteContainer>
-            <h1 className="text-2xl font-bold mb-4">Lidt mere om planen</h1>
+            <h1 className="text-2xl font-bold mb-4">
+              La révolution : en mode facile
+            </h1>
             <P>
-              Klimakrisen er et globalt problem.{' '}
-              <FootNote
-                title="The Global Resource Footprint of Nations"
-                url="http://www.creea.eu/8-project/2-creea-booklet"
-                from="CREEA"
-                date="2. marts 2020"
-              >
-                Fordi Danmark har verdens 7. højeste klimaaftryk per indbygger
-              </FootNote>
-              , skal vi være et grønt foregangsland, så vi kan inspirere og
-              påvirke resten af verden. Vi skal nå de 70 pct. men så
-              omkostningseffektivt som muligt for at tage hensyn til vores
-              velfærd, lighed, dansk konkurrenceevne og jobs. Vores
-              klimahandlingsplaner skal ikke unødigt flytte vores udledninger
-              uden for vores grænser, og det danske erhvervsliv skal stadig være
-              konkurrencedygtig.
+              Comme nous tous, vous avez probablement une légère anxiété à
+              propos de la crise climatique. Vous le savez : si nous ne faisons
+              pas quelque chose, rapidement, les conséquences seront
+              dramatiques. Mais, comme nous tous, vous voulez continuer à
+              utiliser votre voiture. Et les manifestations avec Greta Thunberg
+              ne sont peut être pas votre tasse de thé.
             </P>
             <P>
-              For at nå disse mål foreslår vi at bruge en løsning, der bygger på
-              følgende principper:
-              <ul>
-                <li>
-                  Forureneren betaler en støt stigende afgift på udledninger af
-                  drivhusgasser. Prisen skal være høj nok til at nå klimalovens
-                  målsætning.
-                </li>
-                <li>
-                  Afgiften bør kombineres med tiltag, så løsningen ikke rammer
-                  socialt skævt og en dansker med gennemsnitlig forbrug ikke
-                  bliver ramt på pengepungen.
-                </li>
-              </ul>
+              Vous voulez que la crise du climat se règle d&apos;elle même, sans
+              même y penser. Vous voulez une révolution facile.
             </P>
             <P>
-              Løsningen lægger sig tæt op ad “klimabidrag og -bonus”-modellen,
-              der{' '}
+              Nous sommes d&apos;accord avec vous. Une solution existe, si
+              simple que les politiciens n&apos;envisagent même pas d&apos;en
+              parler. Cette solution permet d&apos;attribuer un coût aux
+              émissions de gaz à effet de serre, mais ne fait pas peser ce coût
+              sur le Français moyen et n&apos;impacte pas les emplois des
+              Français.{' '}
+            </P>
+            <P>
+              Vous pensez que ce n&apos;est pas possible ? Pourtant cette
+              solution ne vient pas de nulle part.
+            </P>
+            <P>
+              En fait, cette solution est si bien pensée que{' '}
               <FootNote
                 title="Economists' Statement on Carbon Dividends"
                 url="https://www.econstatement.org/"
                 from="Climate Leadership Council"
                 date="16. januar 2019"
               >
-                støttes af 27 Nobelprismodtagere i økonomi og over 3500
-                økonomer.
+                27 prix Nobel ainsi que 3500 économistes la soutiennent.
               </FootNote>
             </P>
-            <P>Det er verdens bedste klimaplan.</P>
-
-            <h2 className="text-lg my-6 font-bold">
-              Lad forureneren betale en støt stigende og ensartet klimaafgift
-            </h2>
             <P>
+              En plus, cela ne prends que 5 minutes pour participer à cette
+              révolution. C&apos;est exactement ce qu&apos;on vous à promis. La
+              transition écologique depuis votre canapé. La révolution, facile.
+            </P>
+
+            <h2 className="text-lg my-6 font-bold">Le pollueur doit payer</h2>
+            <P>
+              Lorsque vous jetez des déchets par la fenêtre, vous recevez dans
+              la plupart des cas une amende. C&apos;est le cas parce que il ne
+              faut pas que les autres aient à s&apos;occuper de vos déchets.
+            </P>
+            <P>
+              Cependant, lorsque quelqu&apos;un pollue avec des émissions de
+              gazs à effet de serre qui sont une des causes principales du
+              réchauffement climatique, il n&apos;y a pas d&apos;amende ou de
+              remontrances. Prenons comme exemple deux commercants qui vendent
+              des T-shirts. La première entreprise possède une usine dont
+              l&apos;éléctricité provient de l&apos;énergie renouvenable. La
+              deuxième tire son éléctricité de pétrole. La deuxième usine pollue
+              bien plus que la première. Mais personne ne va aller mettre une
+              amende au deuxième commercant, qui est pourtant bien en train de
+              jeter des déchets par la fenêtre.
+            </P>
+            <P>
+              C&apos;est une évidence, nous devons mettre un terme à cette
+              situation. Et la solution est simple : les pollueurs doivent payer
+              pour leur déchets, quand bien même les déchets sont des gazs à
+              effet de serre.
+            </P>
+            <P>
+              Le{' '}
               <FootNote
                 title="New U.N. Climate Report Says Put a High Price on Carbon"
                 url="https://www.nytimes.com/2018/10/08/climate/carbon-tax-united-nations-report-nordhaus.html"
                 from="The New York Times"
-                date="8. oktober 2018"
+                date="8 octobre 2018"
                 img="/about-the-plan/newyorktimes.svg"
               >
-                FNs klimapanel IPCC
+                GIEC
               </FootNote>
-              ,{' '}
+              , le{' '}
               <FootNote
                 title="A carbon tax is ‘single most powerful’ way to combat climate change, IMF says"
                 url="https://www.cnbc.com/2019/10/10/carbon-tax-most-powerful-way-to-combat-climate-change-imf.html"
                 from="CNBC"
-                date="10. oktober 2019"
+                date="10 octobre 2019"
                 img="/about-the-plan/cnbc.svg"
               >
-                Den Internationale Valutafond
+                Fond Monétaire International
               </FootNote>
-              ,{' '}
+              , la{' '}
               <FootNote
                 title="Pricing Carbon"
                 url="https://www.worldbank.org/en/programs/pricing-carbon"
-                from="The World Bank"
+                from="La Banque Mondiale"
                 img="/about-the-plan/theworldbank.svg"
               >
-                Verdensbanken
+                Banque Mondiale
               </FootNote>
-              ,{' '}
+              , l&apos;
               <FootNote
                 title="Few countries are pricing carbon high enough to meet climate targets"
                 url="http://kraka.org/small_great_nation/en_klimareform_der_sikrer_de_magiske_70_pct"
-                from="OECD"
+                from="Kraka"
                 date="18. september 2018"
                 img="/about-the-plan/kraka.svg"
               >
-                OECD
+                OCDE
               </FootNote>
-              ,{' '}
-              <FootNote
-                title="Macroeconomic and Financial Policies for Climate Change Mitigation: A Review of The Literature"
-                url="http://www.nationalbanken.dk/en/publications/Pages/2019/09/Working-paper-Macroeconomic-and-financial-policies-for-climate-change-mitigation-A-review-of-the-literature.aspx"
-                from="Danmarks National Bank"
-                date="5. september 2020"
-                img="/about-the-plan/nationalbanken.svg"
-              >
-                Nationalbanken
-              </FootNote>
-              ,{' '}
-              <FootNote
-                title="Ensartet afgift på tværs af brancher er den billigste klimaløsning"
-                url="https://dors.dk/oevrige-publikationer/kronikker-artikler/ensartet-afgift-paa-tvaers-brancher-billigste-klimaloesning"
-                from="De Økonomiske Råd"
-                date="22. august 2019"
-              >
-                De Økonomiske Råd
-              </FootNote>
-              ,{' '}
-              <FootNote
-                title="Analyse: CO2-afgift bør være drivkraft for den grønne omstilling"
-                url="https://klimaraadet.dk/da/nyheder/analyse-co2-afgift-boer-vaere-drivkraft-den-groenne-omstilling"
-                from="Klimarådet"
-                date="17. april 2018"
-                img="/about-the-plan/klimaraadet.svg"
-              >
-                Klimarådet
-              </FootNote>{' '}
-              og senest{' '}
+              , ainsi qu&apos;
               <FootNote
                 title="World Scientists’ Warning of a Climate Emergency"
                 url="https://academic.oup.com/bioscience/article/70/1/8/5610806"
                 from="American Institute of Biological Sciences"
-                date="5. november 2020"
+                date="5 novembre 2020"
                 img="/about-the-plan/americaninstituteofbiologicalsciences.svg"
               >
-                11.000 forskere
+                11,000 chercheurs
               </FootNote>{' '}
-              er enige: en klimaafgift er den bedste løsning til at reducere
-              hurtigst muligt vores udledninger, da indsatsen for at reducere
-              udledningerne sker der, hvor det er billigst.
+              sont formels: la manière la plus rapide, la plus efficace et la
+              plus simple de se débarasser de nos émissions est tout simplement
+              de leur attribuer un prix.
             </P>
             <P>
-              Faktisk er{' '}
-              <FootNote
-                title="An efficient way to reduce emissions"
-                url="https://www.aeaweb.org/research/carbon-tax-impact-sweden"
-                from="American Economic Association"
-                date="15. november 2019"
-                img="/about-the-plan/americaneconomicassociation.svg"
-              >
-                en klimaafgift langt mere effektiv end hidtil beregnet
-              </FootNote>{' '}
-              og i{' '}
-              <FootNote
-                title="Rising carbon prices led to drop in German emissions in 2019"
-                url="https://apnews.com/5388d8a3e1e69b24211a66191f129aba"
-                from="AP News"
-                date="7. januar 2020"
-                img="/about-the-plan/apnews.svg"
-              >
-                Tyskland
-              </FootNote>{' '}
-              og{' '}
-              <FootNote
-                title="A carbon tax killed coal in the UK. Natural gas is next."
-                url="https://qz.com/1192753/a-carbon-tax-killed-coal-in-the-uk-natural-gas-is-next/"
-                from="Quartz"
-                date="1. februar 2020"
-                img="/about-the-plan/quartz.svg"
-              >
-                Storbritannien
-              </FootNote>{' '}
-              har klimaafgifter har haft en stor indflydelse for at reducere
-              deres udledninger.
-            </P>
-            <P>
-              Modellen er smart, fordi den gør klimavenlige produkter og ydelser
-              relativt billigere end før: det gør at kunder, altså virksomheder
-              og forbrugere, får et større incitament til at købe disse i stedet
-              for varer, der er klimabelastende. Klimaafgiften giver også et
-              incitament til at innovere og skabe nye klimavenlige løsninger: De
-              kan pludselig være rentable. Fordi prisen er støt stigende, giver
-              det også mulighed til alle for at omstille sig - også dem, som i
-              dag ikke er særlig grønne.
-            </P>
-            <P>
-              I Danmark bør en klimaafgift indføres på fossile brændsler, cement
-              og landbruget - det sikrer en bred dækning. På grund af de
-              eksisterende punktafgifter og{' '}
-              <FootNote
-                title="Effektive veje til drivhusgasreduktion i landbruget"
-                url="https://klimaraadet.dk/da/analyser/effektive-veje-til-drivhusgasreduktion-i-landbruget"
-                from="Klimarådet"
-                date="15. februar 2016"
-                img="/about-the-plan/klimaraadet.svg"
-              >
-                Klimarådets foreslået værktøj
-              </FootNote>{' '}
-              er selve beskatning ikke nødvendigvis en kompliceret sag.
-              Klimaafgiftens pris skal baseres på at Danmark reducerer sine
-              udledninger med 70 pct i 2030 ift. 1990, og at Danmark lever op
-              til Parisaftalen. Den konkrete pris bør beregnes af Klimarådet.{' '}
-              <FootNote
-                title="En klimareform, der sikrer de magiske 70 pct."
-                url="http://kraka.org/small_great_nation/en_klimareform_der_sikrer_de_magiske_70_pct"
-                from="Kraka"
-                date="22. februar 2020"
-                img="/about-the-plan/kraka.svg"
-              >
-                Kraka og Deloitte har beregnet, at en afgift på 1250 kroner per
-                ton CO2-ækvivalenter vil sandsynligvis være tilstrækkelig til at
-                nå 70 pct. målet i 2030.
-              </FootNote>
+              La bonne nouvelle ? Nous savons déjà d&apos;où les émissions
+              proviennent. Lorsque nous brulons des combustibles fossiles
+              (pétrole, gaz, charbon), lorsque nous élevons en masse des vaches,
+              lorsque nous produisons des fertilisateurs ou du ciment. Ainsi,
+              nous savons déjà à qui envoyer la facture.
             </P>
 
             <img

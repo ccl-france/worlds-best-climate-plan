@@ -25,13 +25,15 @@ const Menu = ({ transparent = false }) => {
     // Fetch backers
     const fetchData = async () => {
       const res = await fetch(
-        'https://us-central1-boxwood-academy-251913.cloudfunctions.net/scrapeSignatures'
+        'https://eci.ec.europa.eu/007/public/api/report/map'
       );
       const json = await res.json();
+      const { signatureCountryCount } = json;
+      const fr = signatureCountryCount.find(scc => scc.countryCode === 'fr');
       setBackers(
-        `${new Intl.NumberFormat('da-DK').format(
-          json.backers
-        )} danois ont signé la pétition`
+        `${new Intl.NumberFormat('fr-FR').format(
+          fr.count
+        )} français ont signé la pétition`
       );
     };
     fetchData();
@@ -71,13 +73,20 @@ const Menu = ({ transparent = false }) => {
           </Link>
         ))}
         <p className="text-sand-100 mx-4 ml-auto hidden xl:block">{backers}</p>
-        <Button
-          secondary
-          className="mr-4 md:mr-8 ml-auto xl:ml-0"
-          onClick={openModal}
+
+        <a
+          href="https://eci.ec.europa.eu/007/public/#/initiative"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Soutenez&nbsp;nous&nbsp;🌱
-        </Button>
+          <Button
+            secondary
+            className="mr-4 md:mr-8 ml-auto xl:ml-0"
+            // onClick={openModal}
+          >
+            Soutenez-nous&nbsp;🌱
+          </Button>
+        </a>
       </div>
       {/* filler */}
       {!transparent && <div className="h-20 w-full"></div>}

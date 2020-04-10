@@ -6,10 +6,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Verdens bedste klimaplan',
-    titleTemplate: '%s · Verdens bedste klimaplan',
+    title: 'Le meilleur plan climat du monde',
+    titleTemplate: '%s · Le meilleur plan climat du monde',
     description: '<indsæt>',
-    url: 'https://verdensbedsteklimaplan.dk', // No trailing slash allowed!
+    url: 'https://lemeilleurplanclimatdumonde.fr', // No trailing slash allowed!
   },
   plugins: [
     'gatsby-plugin-postcss',
