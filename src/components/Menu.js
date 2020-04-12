@@ -11,6 +11,11 @@ const pages = [
   ['/about-us', 'A propos de nous'],
 ];
 
+const formatBackers = backers =>
+  `${new Intl.NumberFormat('fr-FR').format(
+    backers
+  )} français ont signé la pétition`;
+
 const Menu = ({ transparent = false }) => {
   const [isSticky, setSticky] = useState(false);
   const [backers, setBackers] = useState(null);
@@ -24,17 +29,20 @@ const Menu = ({ transparent = false }) => {
   useEffect(() => {
     // Fetch backers
     const fetchData = async () => {
+      const backers = sessionStorage.getItem('backers');
+      if (backers) {
+        setBackers(formatBackers(backers));
+        return;
+      }
+
       const res = await fetch(
         'https://eci.ec.europa.eu/007/public/api/report/map'
       );
       const json = await res.json();
       const { signatureCountryCount } = json;
       const fr = signatureCountryCount.find(scc => scc.countryCode === 'fr');
-      setBackers(
-        `${new Intl.NumberFormat('fr-FR').format(
-          fr.count
-        )} français ont signé la pétition`
-      );
+      setBackers(formatBackers(fr.count));
+      sessionStorage.setItem('backers', fr.count);
     };
     fetchData();
 
