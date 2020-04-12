@@ -231,228 +231,157 @@ const ThePlan = () => {
               src="/how-it-works/loving.svg"
             />
             <h2 className="text-lg my-6 font-bold">
-              En løsning, der sikrer den sociale balance
+              Une contribution qui ne coûte rien à la plupart
             </h2>
             <P>
-              Udfordringen ved en klimaafgift er, at den kan ramme socialt
-              skævt. De svagere stillet borgere har et mindre rådighedsbeløb, og
-              den ekstra omkostning har større betydning end hos de mere
-              velhavende. Heldigvis findes der en løsning på det.
+              Soyons honnêtes. Si le fabricant de t-shirts avec son usine au
+              pétrole doit soudainement payer pour le CO2 qu&apos;il rejette
+              dans l&apos;atmosphère ... Oui, l&apos;entreprise répercutera
+              probablement ce nouveau coût sur ses clients, qui finiront par le
+              répercuter sur vous.
             </P>
             <P>
-              Ved at give en betydelig andel af indtægten tilbage til borgerne
-              sørger man for, at afgiften ikke vender den tunge ende nedad.
-              Faktisk viser{' '}
-              <FootNote
-                title="MCC and PIK contribute to Climate Policy Special Report for German government"
-                url="https://www.mcc-berlin.net/en/news/information/information-detail/article/mcc-and-pik-contribute-to-climate-policy-special-report-for-german-government.html"
-                from="MCC"
-                date="12. juli 2019"
-              >
-                en analyse i Tyskland
-              </FootNote>{' '}
-              og{' '}
-              <FootNote
-                title="Carbon Tax and Revenue Recycling: Revenue, Economic, and Distributional Implications"
-                url="https://taxfoundation.org/carbon-tax/"
-                from="Tax Foundation"
-                date="6. november 2019"
-                img="/about-the-plan/taxfoundation.svg"
-              >
-                i USA
-              </FootNote>
-              , at det kan ende med, at de svageste får flere penge i lommen,
-              end de gjorde før, fordi deres forbrug af klimabelastende varer er
-              overordnet mindre end hos de velhavende. De har fx. færre biler,
-              mindre boliger, flyver mindre og generelt et mindre forbrug.
+              Tout comme une taxe sur le sucre rend les bonbons plus chers, une
+              taxe sur le CO2 rendra plus chers les produits nuisibles au
+              climat. Cela signifie que lorsque vous passez par Carrefour,
+              l&apos;impact climatique des biens se reflète dans le prix. Vous
+              n&apos;aurez donc plus besoin de vérifier si le concombre vient de
+              Provence ou de Chine.
             </P>
             <P>
-              Pengene kan tilbageføres på mange måder. Det kunne være gennem den
-              grønne check, gennem lavere skatter og afgifter, eller et højere
-              personfradrag. Kraka og Deloitte har for nyligt anbefalet, at man
-              hovedsageligt sænker de eksisterende energiafgifter. Nogle
-              foretrækker et højere personfradrag, da det ikke går ud over
-              incitamentet til at være i job. Fordi det samlede afgiftsprovenu
-              falder over tiden, da vores udledninger falder, betyder det dog,
-              at personfradraget skal justeres ned over tid - noget der kan gøre
-              den grønne check mere attraktiv.
+              Lorsque les sucreries deviennent plus chères, nous mangeons moins
+              de sucreries. Lorsque les produits ayant un impact sur le climat
+              deviennent plus chers, nous achetons moins de produits ayant un
+              impact sur le climat et plus de produits respectueux du climat.
+            </P>
+            <P>
+              Pour que M. et Mme Dupont ne paient pas leur mode de vie plus cher
+              qu&apos;aujourd&apos;hui, nous avons recours à une astuce : tous
+              les fonds collectés auprès des pollueurs sont reversés aux
+              citoyens en parts égales. Oui, vous avez bien lu.
+            </P>
+            <P>
+              Cela signifie que si vous achetez moins d&apos;articles nuisibles
+              au climat que le Français moyen, vous finirez par avoir plus
+              d&apos;argent en poche. Même si vous êtes milliardaire, mais que
+              vous évitez de prendre l&apos;avion, que vous vivez dans un petit
+              appartement et vous vous rendez au travail à vélo, vous finirez
+              par être plus riche qu&apos;avant.
+            </P>
+            <P>
+              De cette façon, nous récompensons ceux qui sont favorables au
+              climat par de l&apos;argent provenant de ceux qui y sont hostiles.
+              En fait, la plupart des ménages recevront plus d&apos;argent
+              qu&apos;ils ne devront en dépenser pour le prix des biens
+              polluants
             </P>
 
             <h2 className="text-lg my-6 font-bold">
-              En løsning, hvor virksomheder ikke behøver at flytte udledninger
-              og jobs til udlandet
+              N&apos;interdisons pas les choses amusantes
             </h2>
             <P>
-              Det er svært at være uenig i, at udledninger, jobs og
-              konkurrenceevne ikke skal unødigt flytte uden for vores grænser.
-              Det er vigtigt at påpege,at{' '}
-              <FootNote
-                title="Tougher environmental laws do not hurt export competitiveness – OECD study"
-                url="https://www.oecd.org/newsroom/tougher-environmental-laws-do-not-hurt-export-competitiveness.htm"
-                from="OECD"
-                date="10. marts 2016"
-                img="/about-the-plan/oecd.svg"
-              >
-                OECD i 2016 viste, at strenge miljølove ikke påvirker eksporten
-                negativt
-              </FootNote>
-              . Et nyere studie viser også,{' '}
-              <FootNote
-                title="Do Carbon Prices Limit Economic Growth? "
-                url="https://journals.sagepub.com/doi/full/10.1177/2378023119898326"
-                from="Daniel Driscoll, University of California, San Diego"
-                date="7. januar 2020"
-              >
-                at højere klimaafgifter ikke påvirker væksten
-              </FootNote>
-              . I takt med at flere lande har reduktionsmål, bliver det meget
-              usandsynligt, at udflytning af klimabelastende industrier sker.
-              Det gælder især i EU, hvor det nye EU-parlament arbejder på at
-              lovgive for at reducere hele EUs udledninger med minimum 50 pct. i
-              2030, og en klimatold.
+              Évitons que l&apos;État ne nous retire nos jouets préférés. La
+              viande rouges, le vol bon marché de Ryanair pour Tenerife,
+              l&apos;Audi familiale et le sac plastique Lidl. Ils devraient
+              encore être disponibles, mais assurons-nous que la pollution est
+              payée.
             </P>
             <P>
-              Der er dog forståelse for, at det kan være svært at formidle
-              budskabet til virksomheder. Ligesom{' '}
-              <FootNote
-                title="SAU alm. del - svar på spm. 192 om kommentar til henvendelsen af 13/12-19
-              fra Ungeklimarådet"
-                url="https://www.ft.dk/samling/20191/almdel/SAU/spm/192/svar/1624014/index.htm"
-                from="Skatteministeren Morten Bødskov"
-                date="10. januar 2020"
-              >
-                skatteministeren Morten Bødskov forklarer i hans svar til
-                Skatteudvalget d. 8. januar 2020
-              </FootNote>
-              , er der to nemme måder at sørge for, at man undgår det: at
-              justere afgiften prper sektor eller ved at give et højere
-              bundfradrag til virksomheder, der er særlige udsatte for
-              international konkurrence. Et højere bundfradrag vil sørge for, at
-              de gennem klimaafgiften får incitamentet til at reducere deres
-              klimaaftryk, mens deres bundlinje bliver beskyttet. Det højere
-              bundfradrag vil være baseret på den enkelte virksomheds historiske
-              udledninger, ligesom vi har erfaring med fra det europæiske
-              kvotesystem.
+              Le prix de toutes ces choses dépendra de ce qu&apos;il en coûte
+              pour polluer. Aujourd&apos;hui, le prix du CO2 est déjà d'environ
+              25€ par tonne. Mais nous savons qu&apos;il en coûte environ 1000€
+              pour éliminer le CO2 directement de l&apos;air avec des machines.
+              Heureusement, le coût par tonne de CO2 n&apos;a pas d&apos;être
+              aussi élevé pour voir les résultats souhaités, bien qu&apos;il y
+              ait un certain désaccord sur la prix. Selon le Conseil économique,
+              il devrait se situer autour de 75€ par tonne de CO2. Cependant,
+              des chercheurs de Stanford soulignent que le prix devrait être de
+              1 600 dollars. Ici, vous pouvez voir comment les différents prix
+              de la pollution affecteront le prix de certains biens communs.
             </P>
             <P>
-              Fordi bundfradraget ikke vil stige, mens klimaafgiften gør, får
-              virksomhederne et incitament til at omstille sig. Virksomheder,
-              der i forvejen er omfattet af det europæiske kvotesystem, kunne få
-              fuld fradrag for kvoteprisen, de betaler, for at undgå
-              dobbeltbeskatning.
+              Le prix de la pollution ne doit pas nécessairement commencer au
+              plus haut niveau. Il doit au contraire augmenter régulièrement.
+              Cela permet à chacun de modifier son comportement en comprenant ce
+              que l&apos;avenir lui réserve. Même les plus grands pollueurs
+              devraient avoir un peu de temps pour devenir respectueux du
+              climat.
+            </P>
+            <P>
+              En fait, il est beaucoup moins coûteux de fixer un prix à la
+              pollution que lorsque les politiciens choisissent des
+              interdictions ou des rabais spécifiques. Lorsque vous interdisez
+              des choses, il arrive souvent que seules les personnes vivant
+              Paris VIème peuvent se permettre les alternatives qui sont alors
+              disponibles. Il suffit de penser à qui pourrait acheter une
+              voiture si les voitures à essence étaient interdites. En outre,
+              les politiciens sont de misérables joueurs. Lorsqu&apos;ils
+              choisissent parfois de fournir un soutien supplémentaire pour des
+              articles individuels, ils finissent souvent par donner
+              l&apos;argent à des choses qui étaient cool il y a des années. Ne
+              faisons pas cela.
             </P>
 
             <h2 className="text-lg my-6 font-bold">
-              Løsningen har allerede mange støtter i Danmark
+              Une bonne affaire pour les entreprises
             </h2>
             <P>
-              En variant af den ovenstående løsning er blevet foreslået af{' '}
-              <FootNote
-                title="Radikale vil have en grøn skattereform, så al forurening koster penge"
-                url="https://politiken.dk/indland/politik/art7586970/Radikale-vil-have-en-gr%C3%B8n-skattereform-s%C3%A5-al-forurening-koster-penge"
-                from="Politiken"
-                date="3. januar 2020"
-                img="/about-the-plan/politiken.svg"
-              >
-                Radikale Venstre
-              </FootNote>{' '}
-              i januar 2020. I de efterfølgende dage fik forslaget støtte fra{' '}
-              <FootNote
-                title="Politiken mener: Ja, Østergaard. Det skal være dyrere at skade klimaet"
-                url="https://politiken.dk/debat/ledere/art7590141/Ja-%C3%98stergaard.-Det-skal-v%C3%A6re-dyrere-at-skade-klimaet"
-                from="Politiken"
-                date="8. januar 2020"
-                img="/about-the-plan/politiken.svg"
-              >
-                Politiken
-              </FootNote>
-              ,{' '}
-              <FootNote
-                title="Grøn skat"
-                url="https://ekstrabladet.dk/nyheder/lederen/groen-skat/7943974"
-                from="Ekstra Bladet"
-                date="6. januar 2020"
-                img="/about-the-plan/ekstrabladet.svg"
-              >
-                Ekstra Bladet
-              </FootNote>
-              ,{' '}
-              <FootNote
-                title="Børsen mener: Den nødvendige grønne skattereform"
-                url="https://borsen.dk/nyheder/opinion/boersen-mener-den-noedvendige-groenne-skattereform-4pmlg"
-                from="Børsen"
-                date="6. januar 2020"
-                img="/about-the-plan/boersen.svg"
-              >
-                Børsen
-              </FootNote>
-              ,{' '}
-              <FootNote
-                title="Ja tak til en grøn skattereform, der belønner den klimabevidste forbruger"
-                url="https://www.information.dk/indland/leder/2020/01/ja-tak-groen-skattereform-beloenner-klimabevidste-forbruger"
-                from="Information"
-                date="7. januar 2020"
-              >
-                Information
-              </FootNote>
-              , og{' '}
-              <FootNote
-                title="Fint med grønne skatter – ikke højere skatter, Morten Østergaard"
-                url="https://www.berlingske.dk/ledere/fint-med-groenne-skatter-ikke-hoejere-skatter-morten-oestergaard"
-                from="Berlingske"
-                date="7. januar 2020"
-                img="/about-the-plan/berlingske.svg"
-              >
-                Berlingske
-              </FootNote>
-              . Det fik også støtte fra{' '}
-              <FootNote
-                title="Blå og røde økonomer er enige: CO2-afgift vil være godt redskab"
-                url="https://borsen.dk/nyheder/politik/blaa-og-roede-oekonomer-er-enige-co2-afgift-vil-vaere-godt-redskab-8rv6y"
-                from="Børsen"
-                date="8. januar 2020"
-                img="/about-the-plan/boersen.svg"
-              >
-                CEPOS og AE-rådet
-              </FootNote>
-              , fra{' '}
-              <FootNote
-                title="Afgifter - den skarpeste kniv i klimaskuffen"
-                url="http://kraka.org/debatindlaeg/afgifter_den_skarpeste_kniv_i_klimaskuffen"
-                from="Kraka"
-                date="27. november 2019"
-                img="/about-the-plan/kraka.svg"
-              >
-                Kraka tidligere
-              </FootNote>
-              , og fra{' '}
-              <FootNote
-                title="Økonomer i kor: Danmark skal have en grøn skattereform. Og nej, det behøver ikke øge uligheden"
-                url="https://www.information.dk/indland/2020/01/oekonomer-kor-danmark-groen-skattereform-nej-behoever-oege-uligheden"
-                from="Information"
-                date="29. januar 2020"
-              >
-                nogle af de meste prominente økonomer i Danmark
-              </FootNote>
-              .{' '}
-              <FootNote
-                title="En klimareform, der sikrer de magiske 70 pct."
-                url="http://kraka.org/small_great_nation/en_klimareform_der_sikrer_de_magiske_70_pct"
-                from="Kraka"
-                date="22. februar 2020"
-                img="/about-the-plan/kraka.svg"
-              >
-                En gennemgribende rapport fra Kraka og Deloitte udgivet i
-                februar viser, hvordan en dansk klimaafgift kan skrues sammen
-                for at opnå målene
-              </FootNote>
-              .
+              La révolution facile n&apos;est pas bueno si les emplois vont en
+              Pologne ou en Chine. La bonne nouvelle, c&apos;est que les
+              entreprises françaises vont adorer la révolution. Non seulement
+              parce que c&apos;est la solution la moins chère, mais aussi parce
+              qu&apos;elle leur permet de faire facilement les bons
+              investissements aujourd&apos;hui, car elles savent comment les
+              prix vont évoluer à l&apos;avenir. Les entreprises aiment la
+              prévisibilité.
             </P>
             <P>
-              Selvom klimaafgifter ikke kan levere 70 pct. reduktion i
-              udledninger alene, så kan de 70 pct. ikke realistisk nås uden. De
-              ovenstående forslag sørger for, at klimaafgifter ikke svækker den
-              danske konkurrenceevne, eller at den tunge ende vender nedad.
+              Il est peu probable que les lieux de travail se déplacent vers
+              Gdansk ou Shenzhen : l&apos;accord de Paris et les ambitions de
+              l&apos;UE obligeront tous les pays à réduire leurs émissions à
+              zéro d&apos;ici 2050. Cela signifie que les autres pays ne sont
+              pas réellement intéressés par la pollution des entreprises de leur
+              pays. Quel que soit l&apos;endroit où elles se déplacent, les
+              entreprises sont obligées de devenir neutres sur le plan
+              climatique dans un futur proche.
+            </P>
+            <P>
+              Toutefois, certaines industries peuvent être mises en difficulté à
+              court terme. Heureusement, il existe de nombreuses possibilités de
+              les rendre moins compétitives grâce à la révolution facile.
+            </P>
+            <P>
+              Un moyen raisonnable serait d&apos;ajuster légèrement le prix de
+              la pollution dans certains secteurs qui, en raison de la
+              concurrence, auront plus à perdre. Un autre moyen pourrait être de
+              donner de l'argent aux entreprises qui vendent de nombreux biens à
+              des pays où le climat n&apos;est pas encore leur principale
+              préoccupation (une déduction de base), afin que leurs biens
+              puissent continuer à être vendus dans d&apos;autres pays sans
+              problème.
+            </P>
+            <P>
+              Enfin et surtout, si nos propres entreprises deviennent plus
+              vertes, cela signifie qu&apos;elles seront compétitives dans un
+              monde qui, à l&apos;avenir, voudra acheter des produits plus
+              respectueux du climat. Cela peut donc stimuler les exportations.
+            </P>
+
+            <h2 className="text-lg my-6 font-bold">
+              Soutenir la révolution facile
+            </h2>
+            <P>
+              Vous avez maintenant atteint le point où vous devez sortir votre
+              doigt pour que nous puissions commencer la révolution ! Rassemblez
+              toute votre anxiété climatique, tout votre zèle, suivez votre
+              résolution du Nouvel An et signez la Proposition citoyenne.
+            </P>
+            <P>
+              Quand vous aurez fini, reviens et partage avec ta grand-mère, ton
+              oncle climato-sceptique et ton ami hippie. Fais le maintenant.
+              Mettons en route la révolution pour que nous puissions tous nous
+              asseoir et nous concentrer sur les nombreuses autres choses
+              auxquelles nous préférons consacrer notre temps.
             </P>
           </FootNoteContainer>
         </div>
