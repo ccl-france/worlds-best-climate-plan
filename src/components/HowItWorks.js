@@ -15,16 +15,17 @@ const HowItWorks = () => (
       La France se doit d&apos;imposer une taxe sur les produits qui mettent en
       danger le climat et donc le futur de notre planète.
       <br />
-      Forureneren betaler, men uden at det rammer socialt skævt, eller at alle
-      vores udledninger flyttes til udlandet.
+      Le pollueur doit payer, mais sans implications sociales et sans déplacer
+      ses émissions à l&apos;étranger.
     </p>
     <div className="mb-12 sm:flex sm:items-center">
       <div className="sm:w-1/2 sm:mr-20">
         <Badge>1.</Badge>
         <p>
-          Varer, der udleder drivshusgasser i deres produktion pålægges en
-          ekstra afgift. Når en vare bliver dyrere, køber vi mindre af den. På
-          den måde reducerer vi vores udledning og belaster klimaet mindre.
+          Les marchandises qui émettent des gaz à effet de serre dans leur
+          production sont soumises à des frais supplémentaires. Lorsqu&apos;un
+          article devient plus cher, nous en achetons moins. De cette façon,
+          nous réduisons nos émissions et protégeons le climat.
         </p>
       </div>
       <div className="hidden sm:w-1/2 sm:block">
@@ -35,9 +36,10 @@ const HowItWorks = () => (
       <div className="sm:w-1/2 sm:mr-20">
         <Badge>2.</Badge>
         <p>
-          En mere klimavenlig vare er billigere, så måske køber vi den i stedet.
-          Virksomheden vælger at udvikle mere klimavenlige produkter, fordi det
-          bedre kan betale sig.
+          Un produit plus respectueux du climat est moins cher, alors nous
+          l&apos;achetons à la place. L&apos;entreprise choisit de développer
+          des produits plus respectueux du climat car elle peut être plus
+          rentable ainsi.
         </p>
       </div>
       <div className="hidden sm:w-1/2 sm:block">
@@ -48,9 +50,10 @@ const HowItWorks = () => (
       <div className="sm:w-1/2 sm:mr-20">
         <Badge>3.</Badge>
         <p>
-          Indtægt fra klimaafgifterne betales tilbage til borgerne. Det betyder,
-          at man kan sørge for, at afgiften ikke rammer socialt skævt, og at en
-          gennemsnitlig dansker ikke bliver ramt på pengepungen.
+          Les revenus des taxes climatiques sont reversés aux citoyens. Cela
+          signifie que vous pouvez vous assurer que la taxe ne soit pas
+          socialement biaisée et qu&apos;un Français moyen (en émission de gaz à
+          effet de serre) n&apos;est pas impacté.
         </p>
       </div>
       <div className="hidden sm:w-1/2 sm:block">

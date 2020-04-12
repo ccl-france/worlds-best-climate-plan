@@ -35,8 +35,8 @@ const Index = () => {
           </h1>
           <p className="max-w-xl mx-auto text-center md:text-xl my-8 text-sand-100">
             La France se doit d&apos;imposer une taxe sur les produits nuisibles
-            au climat. Forureneren betaler, men uden at det rammer socialt
-            skævt, eller at alle vores udledninger flyttes til udlandet.
+            au climat. Le pollueur doit payer, mais sans implications sociales
+            et sans déplacer ses émissions à l&apos;étranger.
           </p>
 
           <a
@@ -71,7 +71,7 @@ const Index = () => {
         </section>
       </div>
       {/* Support form */}
-      <Form className="mb-16" />
+      {/* <Form className="mb-16" /> */}
     </Layout>
   );
 };

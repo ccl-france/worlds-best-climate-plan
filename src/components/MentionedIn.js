@@ -13,10 +13,11 @@ const Image = ({ link, source }) => (
 const MentionedIn = () => (
   <React.Fragment>
     <h2 className="text-2xl text-center font-bold mb-4 mx-auto">
-      Find modellen i medierne
+      Dans les médias :
     </h2>
     <p className="text-lg text-center mx-auto mb-8">
-      Retfærdige klimaafgifter er beskrevet utallige gange i medierne.
+      Le modèle de revenu climatique a plusieurs fois été mentionné dans les
+      médias
     </p>
     <div className="flex-none max-w-15 sm:max-w-none mx-auto sm:flex items-center justify-around mb-24">
       <Image

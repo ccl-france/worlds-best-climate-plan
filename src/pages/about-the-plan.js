@@ -147,8 +147,8 @@ const ThePlan = () => {
               faut pas que les autres aient à s&apos;occuper de vos déchets.
             </P>
             <P>
-              Cependant, lorsque quelqu&apos;un pollue avec des émissions de
-              gazs à effet de serre qui sont une des causes principales du
+              Cependant, lorsque quelqu&apos;un pollue avec des émissions de gaz
+              à effet de serre qui sont une des causes principales du
               réchauffement climatique, il n&apos;y a pas d&apos;amende ou de
               remontrances. Prenons comme exemple deux commercants qui vendent
               des T-shirts. La première entreprise possède une usine dont
@@ -161,7 +161,7 @@ const ThePlan = () => {
             <P>
               C&apos;est une évidence, nous devons mettre un terme à cette
               situation. Et la solution est simple : les pollueurs doivent payer
-              pour leur déchets, quand bien même les déchets sont des gazs à
+              pour leur déchets, quand bien même les déchets sont des gaz à
               effet de serre.
             </P>
             <P>

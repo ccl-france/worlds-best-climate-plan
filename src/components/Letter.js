@@ -36,8 +36,8 @@ const Letter = () => (
       serre. C&apos;est le moyen le plus efficace de provoquer le changement.
     </p>
     <p className="my-4">
-      Bag Verdens Bedste Klimaplan står Ungeklimarådet, Citizens&apos; Climate
-      Lobby, Klimabevægelsen og en række ildsjæle.{' '}
+      Derrière le meilleur plan climatique du monde se trouve le Citizens&apos;
+      Climate Lobby ainsi que bien d&apos;autres personnes investies.{' '}
       <Link to="/about-us" className="underline">
         En savoir plus sur nous
       </Link>

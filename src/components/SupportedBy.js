@@ -19,17 +19,18 @@ const MentionedIn = () => (
       </div>
       <div className="sm:w-1/2 sm:ml-8 xl:ml-16 text-center sm:text-left">
         <p className="text-xl font-bold mb-4">
-          Støttet af forskere, økonomer og erhverv
+          Soutenu par des scientifiques, des économistes et des professionels
         </p>
         <p className="max-w-sm mx-auto sm:mx-0">
-          Det er ikke os, der har fundet på ideen med en retfærdig klimaafgift.
-          Idéen er gennemtænkt og støttet af forskere og økonomer verden over.
-          Og i Danmark støtter over 100 forskere, virksomheder og organisationer
-          ideen.
+          Ce n&apos;est pas nous qui avons eu l&apos;idée d&apos;une taxe
+          climatique équitable. L&apos;idée est bien pensée et soutenue par les
+          scientifiques et les économistes du monde entier. Et en France, plus
+          de 100 chercheurs, entreprises et organisations soutiennent
+          l&apos;idée.
         </p>
         <p className="mt-4">
           <Link to="/supporters" className="underline">
-            Se hvem der støtter
+            Voir nos soutiens
           </Link>
         </p>
       </div>
