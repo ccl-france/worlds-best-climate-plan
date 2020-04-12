@@ -4,25 +4,30 @@ import SEO from '../components/SEO';
 import Supporter from '../components/Supporter';
 
 const supporters = [
-  ['logo', '350.svg', '', ''],
-  ['logo', 'ccl.png', '', ''],
-  ['logo', 'dgs.png', '', ''],
+  // ['logo', '350.svg', '', ''],
+  ['logo', 'ccl.png', "Citizens' Climate Lobby", ''],
+  // ['logo', 'dgs.png', '', ''],
   // ['logo', 'frej.png', '', ''],
-  ['logo', 'ungeklimaraadet.png', '', ''],
+  // ['logo', 'ungeklimaraadet.png', '', ''],
   // ['person', 'background.jpg', 'Alpha Albert', 'Økonom'],
 ];
 
 const Supporters = () => {
   return (
     <Layout>
-      <SEO title="Støtter" description="" />
+      <SEO
+        title="Soutiens"
+        description="Découvrez qui soutient le meilleur plan climat du monde"
+      />
       <section className="w-full max-w-4xl mx-auto py-16 sm:pb-32 px-6">
         <div className="max-w-2xl">
-          <h1 className="text-2xl font-bold mb-4">Støtter</h1>
+          <h1 className="text-2xl font-bold mb-4">Soutiens</h1>
           <p className="sm:text-lg leading-relaxed mb-12">
-            Det er ikke os, der har fundet på ideen med retfærdige klimaafgifter. Idéen er gennemtænkt og støttet af forskere og økonomer
-            verden over. Og i Danmark støtter over 100 forskere, virksomheder og
-            organisationer ideen.
+            Cette idée bien pensée de taxe climatique équitable n&apos;a pas été
+            pensée par nous. Elle est déjà soutenu par des scientifiques,
+            chercheurs, et économistes du monde entier. Et en France, plus de
+            100 chercheurs, entreprises, et organisations soutiennent cette
+            idée.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {supporters.map(([type, image, name, title], i) => (

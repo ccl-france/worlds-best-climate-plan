@@ -10,6 +10,7 @@ const Person = ({ image, name, title }) => (
         <img
           className="absolute inset-0 h-full object-cover"
           src={`/${image}`}
+          alt={`${name} - ${title}, un des soutiens du revenu climatique`}
         />
       </div>
     </div>
@@ -20,9 +21,13 @@ const Person = ({ image, name, title }) => (
   </div>
 );
 
-const Logo = ({ image }) => (
+const Logo = ({ image, name }) => (
   <div className="flex items-center w-full p-4 bg-gray-100 border border-gray-300 rounded-sm">
-    <img className="w-full h-16 object-contain" src={`/supporters/${image}`} />
+    <img
+      className="w-full h-16 object-contain"
+      src={`/supporters/${image}`}
+      alt={`Logo de ${name} un des soutiens du revenu climatique`}
+    />
   </div>
 );
 
@@ -30,7 +35,7 @@ const Supporter = ({ type, image, name, title }) => {
   if (type === 'person') {
     return <Person image={image} name={name} title={title} />;
   } else if (type === 'logo') {
-    return <Logo image={image} />;
+    return <Logo image={image} name={name} />;
   }
 };
 
