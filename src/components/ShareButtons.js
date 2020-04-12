@@ -60,7 +60,6 @@ const ShareButtons = () => (
               key={share.href}
               className="flex items-center text-sand-200 mx-4 my-2 sm:my-4 opacity-75 hover:opacity-100 transition ease-in-out duration-200"
             >
-              {console.log(share)}
               <share.icon
                 style={{
                   display: 'inline-block',
