@@ -5,21 +5,15 @@ import SEO from '../components/SEO';
 const BehindThePlan = () => {
   return (
     <Layout>
-      <SEO title="Bag planen" description="" />
+      <SEO
+        title="A propos de nous"
+        description="Qui est derrière la proposition de revenu climatique"
+      />
       <section className="w-full max-w-4xl mx-auto py-16 sm:pb-32 px-6">
         <div className="max-w-2xl">
-          <h1 className="text-2xl font-bold mb-4">Bag planen</h1>
+          <h1 className="text-2xl font-bold mb-4">A propos de nous</h1>
           <p className="sm:text-lg leading-relaxed my-4">
-            Bag “Verdens Bedste Klimaplan” står{' '}
-            <a
-              className="underline text-green-700 hover:text-green-500"
-              href="https://kefm.dk/klima-og-vejr/ungeklimaraadet/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Ungeklimarådet
-            </a>
-            ,{' '}
+            Derrière “le meilleur plan climat du monde” se trouvent{' '}
             <a
               className="underline text-green-700 hover:text-green-500"
               href="https://citizensclimatelobby.org/"
@@ -27,40 +21,29 @@ const BehindThePlan = () => {
               rel="noopener noreferrer"
             >
               Citizens&apos; Climate Lobby
-            </a>
-            ,{' '}
-            <a
-              className="underline text-green-700 hover:text-green-500"
-              href="https://www.klimabevaegelsen.dk/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Klimabevægelsen
             </a>{' '}
-            og en række ildsjæle.
+            et bien d&apos;autres personnes investies.
           </p>
           <p className="sm:text-lg leading-relaxed my-4">
-            Planen er dog ikke noget vi selv har fundet på. Idéen er oprindeligt
-            støttet af 27 Nobelprismodtagere og 3.500+ økonomer, og idéen er
-            tilpasset til Danmark, stærkt inspireret af en række danske
-            økonomer, heriblandt Peter Birch Sørensen (tidl. overvismand og
-            formand for Klimarådet).
+            Cependant, le plan n&apos;est pas quelque chose que nous avons
+            élaboré. L&apos;idée a été initialement soutenue par 27 lauréats du
+            prix Nobel et plus de 3500 économistes, et l&apos;idée a été adaptée
+            à la France, grâce à un certain nombre d&apos;économistes français.
           </p>
           <p className="sm:text-lg leading-relaxed my-4">
-            Vi er støttet af filantroper.
+            Nous sommes également soutenus par des philantropes.
           </p>
           <p className="sm:text-lg leading-relaxed my-4">
-            Hvis du har spørgsmål, gerne vil støtte eller gerne vil skrive om
-            Verdens Bedste Klimaplan, så skriv eller ring til Martin Collignon
-            (medlem af Ungeklimarådet):
+            Si vous avez des questions, souhaitez soutenir ou souhaitez écrire
+            sur le meilleur plan climatique du monde, vous pouvez nous
+            contacter:
           </p>
-          <p className="sm:text-lg leading-relaxed my-4">+45 42 91 31 10</p>
           <p className="sm:text-lg leading-relaxed my-4">
             <a
               className="underline text-green-700 hover:text-green-500"
-              href="mailto:kontakt@verdensbedsteklimaplan.dk"
+              href="mailto:lemeilleurplanclimatdumonde@gmail.com"
             >
-              kontakt@verdensbedsteklimaplan.dk
+              lemeilleurplanclimatdumonde@gmail.com
             </a>
           </p>
         </div>
