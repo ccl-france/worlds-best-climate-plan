@@ -31,12 +31,13 @@ const Index = () => {
       >
         <div className="relative mx-auto md:pt-32 p-8">
           <h1 className="text-center text-xl sm:text-2xl md:text-4xl font-bold text-sand-100 leading-none">
-            Soutenez un revenu écologique socialement juste
+            Soutenez un revenu climatique socialement juste
           </h1>
           <p className="max-w-xl mx-auto text-center md:text-xl my-8 text-sand-100">
-            La France se doit d&apos;imposer une taxe sur les produits nuisibles
-            au climat. Le pollueur doit payer, mais sans implications sociales
-            et sans déplacer ses émissions à l&apos;étranger.
+            La France se doit d&apos;imposer une contribution / carbone sur les
+            énergies fossiles nuisibles au climat . Les pollueurs doivent payer,
+            mais sans conséquences sociales et sans déplacer leurs émissions à
+            l&apos;étranger.
           </p>
 
           <a

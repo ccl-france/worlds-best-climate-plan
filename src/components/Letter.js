@@ -9,14 +9,13 @@ const Letter = () => (
     </h2>
     <p className="my-4">
       La France a besoin d&apos;une transition verte, et le plus tôt sera le
-      mieux. Les accords de Paris et le Green Deal sont des bons débuts, mais
-      ils ne nous disent pas comment ne pas atteindre les 2 degrés dans les
-      prochaines années.
+      mieux. Les accords de Paris et le Green Deal sont de bons accords, mais
+      ils ne nous disent pas comment respecter la limite des 2 degrés.
     </p>
     <p className="my-4">
       Nous proposons une solutions reconnue et soutenue par les meilleurs
       experts du climat ainsi que les énonomistes et sur laquelle la gauche et
-      la droite peut se mettre d&apos;accord.
+      la droite se mettent d&apos;accord.
     </p>
     <p className="my-4">
       Nous voulons un système équilibré où nous, en tant que consommateurs,
@@ -26,18 +25,20 @@ const Letter = () => (
     </p>
     <p className="my-4">
       Par conséquent, nous voulons une taxe climatique socialement juste qui
-      impose aux pollueurs de payer et où d&apos;autres mesures garantissent que
-      la solution n&apos;affecte pas le clivage social et que nos émissions ne
-      soient pas délocalisées à l&apos;étranger.
+      impose aux producteurs et importateurs de combustibles fossiles de payer
+      et où d&apos;autres mesures garantissent que la solution n&apos;affecte
+      pas le clivage social et que ces émissions ne soient pas délocalisées à
+      l&apos;étranger.
     </p>
     <p className="my-4">
-      Une large taxe climatique signifie que le Danemark, à travers la
-      consommation des entreprises et des citoyens, émet moins de gaz à effet de
-      serre. C&apos;est le moyen le plus efficace de provoquer le changement.
+      Une taxe climatique importante et croissante signifie que la France, à
+      travers la consommation des entreprises et des citoyens, emettra moins de
+      gaz à effet de serre. C&apos;est le moyen le plus efficace de permettre le
+      changement.
     </p>
     <p className="my-4">
-      Derrière le meilleur plan climatique du monde se trouve le Citizens&apos;
-      Climate Lobby ainsi que bien d&apos;autres personnes investies.{' '}
+      Derrière le meilleur plan climat du monde se trouve de nombreux citoyens
+      et associations.{' '}
       <Link to="/about-us" className="underline">
         En savoir plus sur nous
       </Link>
