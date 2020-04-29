@@ -19,14 +19,13 @@ const MentionedIn = () => (
       </div>
       <div className="sm:w-1/2 sm:ml-8 xl:ml-16 text-center sm:text-left">
         <p className="text-xl font-bold mb-4">
-          Soutenu par des scientifiques, des économistes et des professionels
+          Soutenu par des scientifiques, des économistes et des professionnels
         </p>
         <p className="max-w-sm mx-auto sm:mx-0">
-          Ce n&apos;est pas nous qui avons eu l&apos;idée d&apos;une taxe
+          Ce n&apos;est pas nous qui avons eu l&apos;idée d&apos;une fiscalité
           climatique équitable. L&apos;idée est bien pensée et soutenue par les
-          scientifiques et les économistes du monde entier. Et en France, plus
-          de 100 chercheurs, entreprises et organisations soutiennent
-          l&apos;idée.
+          scientifiques et les économistes du monde entier. En France, plus de
+          100 chercheurs, entreprises et organisations soutiennent l&apos;idée.
         </p>
         <p className="mt-4">
           <Link to="/supporters" className="underline">

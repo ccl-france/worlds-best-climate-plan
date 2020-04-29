@@ -12,8 +12,8 @@ const HowItWorks = () => (
       Comment ça fonctionne
     </h2>
     <p className="md:text-center max-w-xl md:mx-auto mb-16">
-      La France se doit d&apos;imposer une taxe sur les produits qui mettent en
-      danger le climat et donc le futur de notre planète.
+      La France se doit d&apos;imposer une contribution carbone sur les produits
+      qui mettent en danger le climat et donc le futur de notre planète.
       <br />
       Le pollueur doit payer, mais sans implications sociales et sans déplacer
       ses émissions à l&apos;étranger.
@@ -50,10 +50,11 @@ const HowItWorks = () => (
       <div className="sm:w-1/2 sm:mr-20">
         <Badge>3.</Badge>
         <p>
-          Les revenus des taxes climatiques sont reversés aux citoyens. Cela
-          signifie que vous pouvez vous assurer que la taxe ne soit pas
-          socialement biaisée et qu&apos;un Français moyen (en émission de gaz à
-          effet de serre) n&apos;est pas impacté.
+          Les revenus de cette contribution carbone sont reversés aux citoyens.
+          Il s&apos;agit de justice sociale. Un français moyen (en émission de
+          gaz à effet de serre) n&apos;a pas à être impacté. De plus, la
+          conservation du pouvoir d&apos;achat des consommateurs préserve
+          l&apos;économie et les entreprises.
         </p>
       </div>
       <div className="hidden sm:w-1/2 sm:block">

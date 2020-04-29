@@ -3,7 +3,7 @@ import React from 'react';
 import useBreakpoint from '../hooks/useBreakpoint';
 import Layout from '../components/Layout';
 import Button from '../components/Button';
-import Form from '../components/Form/Form';
+import FootNoteContainer from '../components/FootNote';
 import SEO from '../components/SEO';
 import Letter from '../components/Letter';
 import HowItWorks from '../components/HowItWorks';
@@ -34,8 +34,8 @@ const Index = () => {
             Soutenez un revenu climatique socialement juste
           </h1>
           <p className="max-w-xl mx-auto text-center md:text-xl my-8 text-sand-100">
-            La France se doit d&apos;imposer une contribution / carbone sur les
-            énergies fossiles nuisibles au climat . Les pollueurs doivent payer,
+            La France se doit d&apos;imposer une contribution carbone sur les
+            énergies fossiles, nuisibles au climat. Les pollueurs doivent payer,
             mais sans conséquences sociales et sans déplacer leurs émissions à
             l&apos;étranger.
           </p>

@@ -101,8 +101,8 @@ const ThePlan = () => {
             </h1>
             <P>
               Comme nous tous, vous avez probablement une légère anxiété à
-              propos de la crise climatique. Vous le savez : si nous ne faisons
-              pas quelque chose, rapidement, les conséquences seront
+              propos de la crise climatique. Vous le savez : si nous
+              n&apos;agissons pas rapidement, les conséquences seront
               dramatiques. Mais, comme nous tous, vous voulez continuer à
               utiliser votre voiture. Et les manifestations avec Greta Thunberg
               ne sont peut être pas votre tasse de thé.
@@ -112,12 +112,10 @@ const ThePlan = () => {
               même y penser. Vous voulez une révolution facile.
             </P>
             <P>
-              Nous sommes d&apos;accord avec vous. Une solution existe, si
-              simple que les politiciens n&apos;envisagent même pas d&apos;en
-              parler. Cette solution permet d&apos;attribuer un coût aux
-              émissions de gaz à effet de serre, mais ne fait pas peser ce coût
-              sur le Français moyen et n&apos;impacte pas les emplois des
-              Français.{' '}
+              Nous sommes d&apos;accord avec vous. Une solution existe, elle
+              permet d&apos;attribuer un prix aux émissions de gaz à effet de
+              serre, sans faire peser ce coût sur les Français et sans impacter
+              leurs emplois.
             </P>
             <P>
               Vous pensez que ce n&apos;est pas possible ? Pourtant cette
@@ -127,33 +125,34 @@ const ThePlan = () => {
               En fait, cette solution est si bien pensée que{' '}
               <FootNote
                 title="Economists' Statement on Carbon Dividends"
-                url="https://www.econstatement.org/"
+                url="https://clcouncil.org/economists-statement/"
                 from="Climate Leadership Council"
-                date="16. januar 2019"
+                date="16 janvier 2019"
               >
-                27 prix Nobel ainsi que 3500 économistes la soutiennent.
+                27 lauréats du prix Nobel ainsi que 3589 économistes la
+                soutiennent.
               </FootNote>
             </P>
             <P>
-              En plus, cela ne prends que 5 minutes pour participer à cette
-              révolution. C&apos;est exactement ce qu&apos;on vous à promis. La
-              transition écologique depuis votre canapé. La révolution, facile.
+              Et participer à cette révolution ne vous prendra que 5 minutes.
+              Exactement ce que l&apos;on vous a promis. La transition
+              écologique depuis votre canapé. La révolution, facile.
             </P>
 
             <h2 className="text-lg my-6 font-bold">Le pollueur doit payer</h2>
             <P>
               Lorsque vous jetez des déchets par la fenêtre, vous recevez dans
-              la plupart des cas une amende. C&apos;est le cas parce que il ne
-              faut pas que les autres aient à s&apos;occuper de vos déchets.
+              la plupart des cas une amende. C&apos;est parce que ce n&apos;est
+              pas aux autres de s&apos;occuper de vos déchets.
             </P>
             <P>
               Cependant, lorsque quelqu&apos;un pollue avec des émissions de gaz
-              à effet de serre qui sont une des causes principales du
-              réchauffement climatique, il n&apos;y a pas d&apos;amende ou de
-              remontrances. Prenons comme exemple deux commercants qui vendent
-              des T-shirts. La première entreprise possède une usine dont
-              l&apos;éléctricité provient de l&apos;énergie renouvenable. La
-              deuxième tire son éléctricité de pétrole. La deuxième usine pollue
+              à effet de serre, une des causes principales du réchauffement
+              climatique, il n&apos;y a pas d&apos;amende ou de remontrances.
+              Prenons comme exemple deux commercants qui vendent des T-shirts.
+              La première entreprise possède une usine dont l&apos;éléctricité
+              provient d&apos;énergie renouvenable. La deuxième obtient son
+              éléctricité par le pétrole ou le charbon. La deuxième usine pollue
               bien plus que la première. Mais personne ne va aller mettre une
               amende au deuxième commercant, qui est pourtant bien en train de
               jeter des déchets par la fenêtre.
@@ -231,28 +230,32 @@ const ThePlan = () => {
               src="/how-it-works/loving.svg"
             />
             <h2 className="text-lg my-6 font-bold">
-              Une contribution qui ne coûte rien à la plupart
+              Une contribution qui ne coûte rien à la majorité
             </h2>
             <P>
               Soyons honnêtes. Si le fabricant de t-shirts avec son usine au
               pétrole doit soudainement payer pour le CO2 qu&apos;il rejette
-              dans l&apos;atmosphère ... Oui, l&apos;entreprise répercutera
-              probablement ce nouveau coût sur ses clients, qui finiront par le
-              répercuter sur vous.
+              dans l&apos;atmosphère, il va probablement répercuter ce nouveau
+              coût sur ces clients. Par conséquent, c’est vous qui finirez par
+              payer !
             </P>
             <P>
               Tout comme une taxe sur le sucre rend les bonbons plus chers, une
-              taxe sur le CO2 rendra plus chers les produits nuisibles au
-              climat. Cela signifie que lorsque vous passez par Carrefour,
-              l&apos;impact climatique des biens se reflète dans le prix. Vous
-              n&apos;aurez donc plus besoin de vérifier si le concombre vient de
-              Provence ou de Chine.
+              contribution sur le CO2 rendra plus chers les produits nuisibles
+              au climat. Cela signifie que lorsque vous passez par Carrefour,
+              l&apos;impact climatique des biens se reflète dans le prix. Si
+              vous choisissez d&apos;acheter un concombre qui vient de Chine
+              plutôt que de Provence, le coût environnemental du transport sera
+              reflété dans le prix d&apos;achat.
             </P>
             <P>
-              Lorsque les sucreries deviennent plus chères, nous mangeons moins
-              de sucreries. Lorsque les produits ayant un impact sur le climat
-              deviennent plus chers, nous achetons moins de produits ayant un
-              impact sur le climat et plus de produits respectueux du climat.
+              Lorsque les sucreries deviennent plus chères, nous en mangeons
+              moins. Lorsque les produits ayant un impact sur le climat
+              deviennent plus chers, nous en achèterons moins et
+              l&apos;incitation comportementale sera de choisir des produits
+              respectueux du climat. Par ailleurs, ceux-ci deviendront de plus
+              en plus abordable car ils ne seront plus en compétition déloyale
+              avec des produits polluants.
             </P>
             <P>
               Pour que M. et Mme Dupont ne paient pas leur mode de vie plus cher
@@ -269,35 +272,35 @@ const ThePlan = () => {
               par être plus riche qu&apos;avant.
             </P>
             <P>
-              De cette façon, nous récompensons ceux qui sont favorables au
-              climat par de l&apos;argent provenant de ceux qui y sont hostiles.
-              En fait, la plupart des ménages recevront plus d&apos;argent
-              qu&apos;ils ne devront en dépenser pour le prix des biens
-              polluants
+              De cette façon, nous récompensons les comportements vertueux tout
+              en mettant à contribution ceux qui polluent. En fait, la plupart
+              des ménages recevront plus d&apos;argent qu&apos;ils ne devront en
+              dépenser pour le prix des biens polluants
             </P>
 
             <h2 className="text-lg my-6 font-bold">
               N&apos;interdisons pas les choses amusantes
             </h2>
             <P>
-              Évitons que l&apos;État ne nous retire nos jouets préférés. La
-              viande rouges, le vol bon marché de Ryanair pour Tenerife,
-              l&apos;Audi familiale et le sac plastique Lidl. Ils devraient
-              encore être disponibles, mais assurons-nous que la pollution est
-              payée.
+              Avec cette solution, l&apos;Etat n&apos;a pas à contraindre les
+              citoyens français à ne plus jouir de leurs jouets préférés. Si un
+              jour on a quand même envie de manger de la viande rouge ou prendre
+              un vol Ryanair pour Tenerife ou offrir une Audi à sa famille, le
+              coût environnemental sera inclus.
             </P>
             <P>
               Le prix de toutes ces choses dépendra de ce qu&apos;il en coûte
-              pour polluer. Aujourd&apos;hui, le prix du CO2 est déjà d'environ
-              25€ par tonne. Mais nous savons qu&apos;il en coûte environ 1000€
-              pour éliminer le CO2 directement de l&apos;air avec des machines.
-              Heureusement, le coût par tonne de CO2 n&apos;a pas d&apos;être
-              aussi élevé pour voir les résultats souhaités, bien qu&apos;il y
-              ait un certain désaccord sur la prix. Selon le Conseil économique,
-              il devrait se situer autour de 75€ par tonne de CO2. Cependant,
-              des chercheurs de Stanford soulignent que le prix devrait être de
-              1 600 dollars. Ici, vous pouvez voir comment les différents prix
-              de la pollution affecteront le prix de certains biens communs.
+              pour polluer. Aujourd&apos;hui, le prix du CO2 est déjà
+              d&apos;environ 25€ par tonne. Mais nous savons que cela coûte
+              environ 1000€ d&apos;éliminer directement le CO2 de l&apos;air
+              avec des machines. Heureusement, le coût par tonne de CO2 n&apos;a
+              pas besoin d&apos;être aussi élevé pour voir les résultats
+              souhaités, bien qu&apos;il y ait un certain désaccord sur le prix.
+              Selon le Conseil économique, il devrait se situer autour de 75€
+              par tonne de CO2. Cependant, des chercheurs de Stanford soulignent
+              que le prix devrait être de 1 600 dollars. Ici, vous pouvez voir
+              comment les différents prix de la pollution vont affecter le prix
+              de certains biens communs.
             </P>
             <P>
               Le prix de la pollution ne doit pas nécessairement commencer au

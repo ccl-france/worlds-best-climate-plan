@@ -23,11 +23,11 @@ const Supporters = () => {
         <div className="max-w-2xl">
           <h1 className="text-2xl font-bold mb-4">Soutiens</h1>
           <p className="sm:text-lg leading-relaxed mb-12">
-            Cette idée bien pensée de taxe climatique équitable n&apos;a pas été
-            pensée par nous. Elle est déjà soutenu par des scientifiques,
-            chercheurs, et économistes du monde entier. Et en France, plus de
-            100 chercheurs, entreprises, et organisations soutiennent cette
-            idée.
+            Cette idée bien pensée de fiscalité climatique équitable n&apos;a
+            pas été pensée par nous. Elle est déjà soutenu par des
+            scientifiques, chercheurs, et économistes du monde entier. En
+            France, plus de 100 chercheurs, entreprises, et organisations
+            soutiennent cette idée.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {supporters.map(([type, image, name, title], i) => (

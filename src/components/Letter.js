@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
+
 import Button from './Button';
+import { FootNoteItem as FN } from '../components/FootNote';
 
 const Letter = () => (
   <div className="relative bg-sand-100 p-10 md:p-20 mx-auto max-w-3xl rounded-sm">
@@ -10,11 +12,18 @@ const Letter = () => (
     <p className="my-4">
       La France a besoin d&apos;une transition verte, et le plus tôt sera le
       mieux. Les accords de Paris et le Green Deal sont de bons accords, mais
-      ils ne nous disent pas comment respecter la limite des 2 degrés.
+      ils ne nous disent pas comment respecter la limite des{' '}
+      <a
+        href="https://www.ipcc.ch/site/assets/uploads/sites/2/2019/09/SR15_Summary_Volume_french.pdf"
+        className="underline"
+      >
+        1,5 degrés
+      </a>
+      .
     </p>
     <p className="my-4">
       Nous proposons une solutions reconnue et soutenue par les meilleurs
-      experts du climat ainsi que les énonomistes et sur laquelle la gauche et
+      experts du climat ainsi que les économistes et sur laquelle la gauche et
       la droite se mettent d&apos;accord.
     </p>
     <p className="my-4">
@@ -24,17 +33,17 @@ const Letter = () => (
       respectueux du climat.
     </p>
     <p className="my-4">
-      Par conséquent, nous voulons une taxe climatique socialement juste qui
-      impose aux producteurs et importateurs de combustibles fossiles de payer
-      et où d&apos;autres mesures garantissent que la solution n&apos;affecte
-      pas le clivage social et que ces émissions ne soient pas délocalisées à
-      l&apos;étranger.
+      Par conséquent, nous souhaitons une contribution carbone socialement juste
+      qui impose aux producteurs et importateurs de combustibles fossiles de
+      payer. Par ailleurs, d&apos;autres mesures doivent garantir que la
+      solution n&apos;affectera pas le clivage social, et que ces émissions ne
+      soient pas délocalisées à l&apos;étranger.
     </p>
     <p className="my-4">
-      Une taxe climatique importante et croissante signifie que la France, à
-      travers la consommation des entreprises et des citoyens, emettra moins de
-      gaz à effet de serre. C&apos;est le moyen le plus efficace de permettre le
-      changement.
+      Une contribution carbone importante et croissante permettra à la France,
+      au regard de la consommation des entreprises et des citoyens
+      d&apos;émettre moins de gaz à effet de serre. C&apos;est le moyen le plus
+      efficace d&apos;amorcer le changement.
     </p>
     <p className="my-4">
       Derrière le meilleur plan climat du monde se trouve de nombreux citoyens
