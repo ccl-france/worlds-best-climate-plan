@@ -20,7 +20,7 @@ const BehindThePlan = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Citizens&apos; Climate Lobby
+              le Lobby Climatique des Citoyens
             </a>{' '}
             et bien d&apos;autres personnes investies.
           </p>
@@ -31,7 +31,7 @@ const BehindThePlan = () => {
             à la France, grâce à un certain nombre d&apos;économistes français.
           </p>
           <p className="sm:text-lg leading-relaxed my-4">
-            Nous sommes également soutenus par des philantropes.
+            Nous sommes également soutenus par des philanthropes.
           </p>
           <p className="sm:text-lg leading-relaxed my-4">
             Si vous avez des questions, souhaitez soutenir ou souhaitez écrire

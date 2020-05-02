@@ -26,38 +26,38 @@ const faq = [
   ],
   [
     "La solution ne devrait-elle pas être utilisée dans l'ensemble de l'UE ou du monde avant d'être efficace ?",
-    "Ce serait la solution idéale si le meilleur plan climatique du monde était mis en œuvre dans le monde ou déjà dans l'UE. Quoi qu'il arrive en dehors de nos frontières, les économistes sont toujours convaincus qu'il est préférable que la France utilise le plan car c'est le moyen le moins cher et le meilleur pour atteindre nos objectifs, et nous pouvons également montrer la voie aux autres pays.",
+    "Une solution idéale pour le climat serait que le meilleur plan climatique du monde soit mis en œuvre partout dans le monde ou dans un premier temps dans l'UE. Quoi qu'il se passe en dehors de nos frontières, les économistes restent convaincus qu'il est préférable que la France suive ce plan car c'est le meilleur moyen (et le moins cher !)  pour atteindre nos objectifs. De plus, nous pouvons également montrer la voie aux autres pays.",
   ],
   [
     'Avez-vous besoin de calculer la quantité de CO2 dans chaque produit ?',
-    "Non. Ici, l'astuce consiste à placer la taxe le plus près possible de la source de pollution : sur les combustibles fossiles, les ruminants et les matériaux de production de polluants tels que le ciment. Lorsque le prix du CO2 est inclus dans ces produits depuis le début, la taxe passe d'un produit à l'autre en utilisant, par exemple, du pétrole, du charbon ou du ciment.",
+    "Non. Ici, l'astuce consiste à placer la taxe le plus près possible de la source de pollution : sur les combustibles fossiles, les ruminants et les matériaux de production de polluants tels que le ciment. Lorsque le prix du CO2 est inclus dans ces produits depuis le début, cela est reflété en passant d'un produit à l'autre jusqu'au produit final acheté par le consommateur.",
   ],
   [
     'Faut-il éliminer toutes les taxes sur le CO2 existantes ?',
-    "Vous n'êtes pas obligé de le faire! Aujourd'hui, bon nombre de nos taxes climatiques actuelles sont utilisées pour financer notre État providence et leur suppression nécessitera de trouver de nouvelles sources de revenus. Par conséquent, il est plus facile de simplement les ajouter aux impôts existants - et de laisser les politiciens réfléchir à la manière de financer le bien-être à l'avenir.",
+    "Nous ne sommes pas obligés de le faire ! Aujourd'hui, bon nombre de nos taxes climatiques sont utilisées pour financer notre État providence et leur suppression nécessitera de trouver de nouvelles sources de revenus. Par conséquent, il est plus facile de les ajouter aux impôts existants.",
   ],
   [
     'Les industries déjà couvertes par le système de quotas ETS devraient-elles également payer la taxe ?',
-    "Ils le font, car les quotas de l'ETS sont trop bon marché pour supporter 70%. cible. Il est possible de rembourser l'équivalent du prix ETS aux industries concernées.",
+    "Ils devront le faire en complément, car les quotas de l'ETS sont trop bon marché pour atteindre la cible des 70%. Il est possible de rembourser l'équivalent du prix ETS aux industries concernées.",
   ],
   [
     "Faut-il rendre tout l'argent aux citoyens ?",
-    "Idéalement, oui! L'argent est réparti de manière totalement égale entre tous les citoyens, donc que vous soyez millionnaire ou que vous ayez des prestations sociales, vous obtenez le même montant sur le compte. Pour la plupart, ce montant couvrira plus que le coût des prix plus élevés des produits carbonnés, et plus vous vivez écologique, plus votre portefeuille sera heureux. Dans d'autres pays, ils ont choisi de consacrer une part au bien-être ou à la recherche - ce n'est pas ce que les économistes recommandent.",
+    "Idéalement, oui ! L'argent est réparti de manière totalement égale entre tous les citoyens, donc que vous soyez millionnaire ou que vous soyez bénéficiaires de prestations sociales, vous recevez le même montant. Pour la plupart, ce montant couvrira plus que le coût les plus élevés des produits carbonés, et plus vous aurez un mode de vie écologique, plus vous pourrez mettre de l'argent de côté. Dans d'autres pays, ils ont choisi de consacrer une part au bien-être ou à la recherche - ce n'est pas ce que les économistes recommandent.",
   ],
   [
     "Tous les emplois partiront-ils à l'étranger ?",
-    "C'est très peu probable. Premièrement, de nombreux autres pays deviennent également ambitieux (et ne sont donc pas intéressés à amener des pollueurs chez eux). Parce que l'UE prévoit un tarif climatique, les pays tiers seront également ambitieux. Il existe également des possibilités d'améliorer notre compétitivité. Enfin et surtout, le meilleur plan climatique du monde signifie que nous nous occupons tous de la transition verte. De nombreuses nouvelles opportunités verront le jour à mesure que les produits verts deviendront plus compétitifs.",
+    "C'est très peu probable. Premièrement, de nombreux autres pays deviennent également ambitieux (et ne veulent pas faire entrer des pollueurs chez eux). Parce que l'UE prévoit un tarif climatique, les pays tiers seront également ambitieux. Il existe également des possibilités d'améliorer notre compétitivité. Enfin et surtout, le meilleur plan climatique du monde signifie que nous nous occupons tous de la transition verte. De nombreuses nouvelles opportunités verront le jour au fur et à mesure que les produits verts deviendront plus compétitifs.",
   ],
   [
     "Y a-t-il d'autres pays qui l'ont déjà fait ?",
-    "La Colombie-Britannique au Canada y est parvenue avec succès - et elle est maintenant déployée partout au Canada. Il est à l'ordre du jour dans plusieurs autres pays.",
+    "La Colombie-Britannique au Canada y est parvenue avec succès - et elle est maintenant déployée dans tout le Canada. La Suisse aussi depuis 2007. Il est à l'ordre du jour dans plusieurs autres pays.",
   ],
   [
     "Que dit l'industrie ?",
     "Certaines grandes entreprises danoises supportent un prix de la pollution. Cela s'applique, par exemple, à Nordea, Danfoss, Vestas et Ørsted. Dansk Industri et Dansk Erhverv sont généralement opposés à des \"accusations stupides\". Ensuite, il est heureux que le meilleur plan climatique du monde soit super intelligent! Parce qu'il est moins cher sur le plan socio-économique et plus prévisible que les alternatives, il est presque normal que les entreprises, dans l'ensemble, adorent le plan. Certains vont se plaindre (en particulier les pollueurs), mais c'est plus parce que certaines de leurs entreprises ne peuvent pas vraiment être durables - et ils peuvent voir qu'il sera difficile d'être climatiquement neutre en 2050. Mais Aalborg Portland et Arla eux-mêmes devraient voir l'escroquerie - alors ils peuvent vendre plus de Futurecem et de boissons végétales respectivement",
   ],
   [
-    "Combien devrait coûter l'émission de CO2 ?",
+    'Combien devrait coûter le CO2 ?',
     "Pour nous débarrasser de nos émissions, le prix doit être suffisamment élevé. En 2018, le Conseil du climat a mentionné un prix de plus de 800 DKK par tonne de CO2 émise, mais c'était avant l'objectif de 70% a vu le jour. Il est probable que le prix se situera entre 1000 $ et 1500 $ d'ici 2030.",
   ],
   [
@@ -65,24 +65,24 @@ const faq = [
     "En supposant que nous voulons réellement être climatiquement neutres d'ici 2050, nous n'utiliserons pas de combustibles fossiles, c'est pourquoi nous devons trouver de nouvelles sources de revenus quoi qu'il arrive. Cela n'a rien à voir avec le meilleur plan climatique du monde.",
   ],
   [
-    "Est-ce à dire que je ne peux plus prendre l'avion ?",
-    "Non. Cela signifie simplement que vous payez le prix réel de votre vol. Un voyage à Copenhague sera donc plus cher qu'aujourd'hui, mais si vous voulez lui donner la priorité, il y aura toujours de la place dans le budget pour les vacances annuelles pour les familles ordinaires. Dans le même temps, un prix du CO2 poussera les compagnies aériennes à accélérer le développement de carburants et d'avions respectueux du climat, ce qui rendra possible les voyages écologiques à l'avenir.",
+    "Cela signifie t-il que je ne peux plus prendre l'avion ?",
+    "Non. Cela signifie simplement que vous payez le prix réel de votre vol. Un voyage à Madrid sera donc plus cher qu'aujourd'hui, mais si vous il est prioritaire pour vous, ce sera toujours possible de partir en vacance en famille. En parallèle, un prix du CO2 poussera les compagnies aériennes à accélérer le développement de carburants et d'avions respectueux du climat, ce qui rendra possible les voyages écologiques à l'avenir.",
   ],
   [
     'Ne pouvez-vous pas simplement interdire les choses à la place ?',
-    "Vous pourriez, mais il y a beaucoup de choses à interdire, et quand vous interdisez les choses, cela va au-delà des plus faibles, qui souvent ne peuvent pas se permettre des alternatives. Avec le meilleur plan climatique du monde, le prix réel du produit sera utilisé - et ensuite vous décidez si vous pensez qu'un produit en vaut la peine.",
+    "Ce serait possible, mais il y a beaucoup de choses à interdire. De plus, les interdictions touchent souvent de manière plus impactante les plus démunis, qui ne peuvent pas se permettre des alternatives. Avec le meilleur plan climatique du monde, le prix réel du produit sera utilisé - et ensuite vous décidez si vous pensez qu'un produit en vaut la peine.",
   ],
   [
     'Ne pourriez-vous pas simplement mettre une étiquette climatique sur tout et laisser les gens décider eux-mêmes de les acheter ?',
-    "Ce sera un bon début, mais il est peu probable qu'il fasse une différence. Il y a une raison pour laquelle la taxe est maintenant facturée sur les cigarettes, bien qu'il y ait des images horribles sur l'emballage depuis quelques années.",
+    "Ce serait un bon début, mais il est peu probable que cela fasse une différence. Il y a une raison pour laquelle une taxe est sur les cigarettes à été mise en place, malgré les images horribles sur l'emballage depuis quelques années.",
   ],
   [
     "N'est-ce pas juste une façon cachée de faire payer les citoyens ?",
-    "Rendre l'argent par le biais du chèque vert n'est qu'une façon de le faire. Vous pouvez également choisir de réduire d'autres impôts ou d'augmenter l'allocation personnelle. Cependant, les montants ne seront pas particulièrement élevés pour la plupart, de sorte qu'il est peu probable qu'ils affectent le compte bancaire des citoyens d'une manière qui les dissuadera de travailler.",
+    "Rendre l'argent par le biais du revenu climatique n'est qu'une façon de le faire. Vous pouvez également choisir de réduire d'autres impôts ou d'augmenter l'allocation personnelle. Cependant, les montants ne seront pas particulièrement élevés pour la plupart, de sorte qu'il est peu probable qu'ils affectent le compte bancaire des citoyens d'une manière qui les dissuadera de travailler.",
   ],
   [
     'Ne pouvons-nous pas simplement soutenir les entreprises tout au long de la transition verte ?',
-    "C'est possible, mais c'est une pire solution. C'est parce que l'argent provient du fonds commun (c'est-à-dire votre impôt) et parce qu'il est vraiment difficile d'en faire assez pour atteindre les 70%. Chaque année, les politiciens devraient calculer combien de CO2 ils ont économisé, puis prendre de nouvelles mesures au lieu de simplement augmenter la taxe. C'est clair - et en aucun cas assez ambitieux.",
+    "C'est possible, mais c'est une solution plus couteuse. C'est parce que l'argent provient des fonds publics (c'est-à-dire vos impôt) et parce qu'il est vraiment difficile d'en faire assez pour atteindre les 70%. Chaque année, les politiciens devraient calculer combien de CO2 ils ont économisé, puis prendre de nouvelles mesures au lieu de simplement augmenter la taxe. Ce n'est en aucun cas assez ambitieux.",
   ],
 ];
 
@@ -176,32 +176,39 @@ const ThePlan = () => {
               </FootNote>
               , le{' '}
               <FootNote
-                title="A carbon tax is ‘single most powerful’ way to combat climate change, IMF says"
-                url="https://www.cnbc.com/2019/10/10/carbon-tax-most-powerful-way-to-combat-climate-change-imf.html"
-                from="CNBC"
-                date="10 octobre 2019"
-                img="/about-the-plan/cnbc.svg"
+                title="Fiscal Monitor: How to Mitigate Climate Change"
+                url="https://www.imf.org/en/Publications/FM/Issues/2019/09/12/fiscal-monitor-october-2019"
+                from="FMI"
+                date="Octobre 2019"
               >
                 Fond Monétaire International
               </FootNote>
               , la{' '}
               <FootNote
-                title="Pricing Carbon"
-                url="https://www.worldbank.org/en/programs/pricing-carbon"
+                title="Report of the High-Level Commission on Carbon Pricing and Competitiveness"
+                url="https://openknowledge.worldbank.org/handle/10986/32419"
                 from="La Banque Mondiale"
                 img="/about-the-plan/theworldbank.svg"
               >
                 Banque Mondiale
               </FootNote>
+              , la{' '}
+              <FootNote
+                from="Comission Européenne"
+                title="Ex-post investigation of cost pass-through in the EU ETS"
+                date="2015"
+                url="https://ec.europa.eu/clima/sites/clima/files/ets/allowances/docs/ex-post_investigation_of_cost_en.pdf"
+              >
+                Commission Européenne
+              </FootNote>
               , l&apos;
               <FootNote
-                title="Few countries are pricing carbon high enough to meet climate targets"
-                url="http://kraka.org/small_great_nation/en_klimareform_der_sikrer_de_magiske_70_pct"
-                from="Kraka"
-                date="18. september 2018"
-                img="/about-the-plan/kraka.svg"
+                title="CONTRIBUTION CLIMAT-SOLIDARITÉ : POUR UNE TAXE CARBONE INTÉGRALEMENT REDISTRIBUÉE"
+                url="https://presse.ademe.fr/2019/04/avis-de-lademe-contribution-climat-solidarite-pour-une-taxe-carbone-integralement-redistribuee.html"
+                from="ADEME"
+                date="8 avril 2019"
               >
-                OCDE
+                ADEME
               </FootNote>
               , ainsi qu&apos;
               <FootNote
@@ -314,15 +321,10 @@ const ThePlan = () => {
               En fait, il est beaucoup moins coûteux de fixer un prix à la
               pollution que lorsque les politiciens choisissent des
               interdictions ou des rabais spécifiques. Lorsque vous interdisez
-              des choses, il arrive souvent que seules les personnes vivant
-              Paris VIème peuvent se permettre les alternatives qui sont alors
+              des choses, il arrive souvent que seules les personnes les plus
+              aisées peuvent se permettre les alternatives qui sont alors
               disponibles. Il suffit de penser à qui pourrait acheter une
-              voiture si les voitures à essence étaient interdites. En outre,
-              les politiciens sont de misérables joueurs. Lorsqu&apos;ils
-              choisissent parfois de fournir un soutien supplémentaire pour des
-              articles individuels, ils finissent souvent par donner
-              l&apos;argent à des choses qui étaient cool il y a des années. Ne
-              faisons pas cela.
+              voiture si les voitures à essence étaient interdites.
             </P>
 
             <h2 className="text-lg my-6 font-bold">
