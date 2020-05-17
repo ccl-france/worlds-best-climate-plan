@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Button from './Button';
-import { FootNoteItem as FN } from '../components/FootNote';
 
 const Letter = () => (
   <div className="relative bg-sand-100 p-10 md:p-20 mx-auto max-w-3xl rounded-sm">
@@ -11,15 +10,9 @@ const Letter = () => (
     </h2>
     <p className="my-4">
       La France a besoin d&apos;une transition verte, et le plus tôt sera le
-      mieux. Les accords de Paris et le Green Deal sont de bons accords, mais
-      ils ne nous disent pas comment respecter la limite des{' '}
-      <a
-        href="https://www.ipcc.ch/site/assets/uploads/sites/2/2019/09/SR15_Summary_Volume_french.pdf"
-        className="underline"
-      >
-        1,5 degrés
-      </a>
-      .
+      mieux. Les accords de Paris et le Green Deal énoncent des objectifs
+      ambitieux (neutralité carbone d&apos;ici 2050), cependant aucun plan
+      n&apos;a été détaillé afin d&apos;y parvenir.
     </p>
     <p className="my-4">
       Nous proposons une solutions reconnue et soutenue par les meilleurs
@@ -29,8 +22,8 @@ const Letter = () => (
     <p className="my-4">
       Nous voulons un système équilibré où nous, en tant que consommateurs,
       sommes financièrement récompensés pour nos achats durables et où les
-      entreprises sont incitées financièrement à produire des produits
-      respectueux du climat.
+      entreprises sont incitées, de la même manière, à avoir une production
+      respectueuse du climat.
     </p>
     <p className="my-4">
       Par conséquent, nous souhaitons une contribution carbone socialement juste

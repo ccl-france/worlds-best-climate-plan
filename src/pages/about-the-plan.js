@@ -22,7 +22,7 @@ const faq = [
   ],
   [
     'Quels sont les inconvénients ? Cela semble trop beau pour être vrai.',
-    'Malheureusement, la taxe ne suffit pas en soi pour atteindre 70%. Par conséquent, les politiciens doivent également prendre des décisions difficiles, par exemple: zones sans voiture, infrastructure de recharge, réglementation de la construction, ...',
+    'Malheureusement, la taxe ne suffit pas en soi pour atteindre 70%. Par conséquent, les politiciens doivent également prendre des décisions difficiles, par exemple: zones sans voiture, infrastructure de recharge pour voitures électriques, réglementation de la construction, ...',
   ],
   [
     "La solution ne devrait-elle pas être utilisée dans l'ensemble de l'UE ou du monde avant d'être efficace ?",
@@ -74,7 +74,7 @@ const faq = [
   ],
   [
     'Ne pourriez-vous pas simplement mettre une étiquette climatique sur tout et laisser les gens décider eux-mêmes de les acheter ?',
-    "Ce serait un bon début, mais il est peu probable que cela fasse une différence. Il y a une raison pour laquelle une taxe est sur les cigarettes à été mise en place, malgré les images horribles sur l'emballage depuis quelques années.",
+    "Ce serait un bon début, mais il est peu probable que cela fasse une différence. Il y a une raison pour laquelle une taxe sur les cigarettes à été mise en place, malgré les images horribles sur l'emballage depuis quelques années.",
   ],
   [
     "N'est-ce pas juste une façon cachée de faire payer les citoyens ?",
@@ -82,7 +82,7 @@ const faq = [
   ],
   [
     'Ne pouvons-nous pas simplement soutenir les entreprises tout au long de la transition verte ?',
-    "C'est possible, mais c'est une solution plus couteuse. C'est parce que l'argent provient des fonds publics (c'est-à-dire vos impôt) et parce qu'il est vraiment difficile d'en faire assez pour atteindre les 70%. Chaque année, les politiciens devraient calculer combien de CO2 ils ont économisé, puis prendre de nouvelles mesures au lieu de simplement augmenter la taxe. Ce n'est en aucun cas assez ambitieux.",
+    "C'est possible, mais c'est une solution plus coûteuse. C'est parce que l'argent provient des fonds publics (c'est-à-dire vos impôt) et parce qu'il est vraiment difficile d'en faire assez pour atteindre les 70%. Chaque année, les politiciens devraient calculer combien de CO2 ils ont économisé, puis prendre de nouvelles mesures au lieu de simplement augmenter la taxe. Ce n'est en aucun cas assez ambitieux.",
   ],
 ];
 
@@ -130,7 +130,7 @@ const ThePlan = () => {
                 date="16 janvier 2019"
               >
                 27 lauréats du prix Nobel ainsi que 3589 économistes la
-                soutiennent.
+                soutiennent (cf. Climate Leadership Concil).
               </FootNote>
             </P>
             <P>
@@ -249,11 +249,9 @@ const ThePlan = () => {
             <P>
               Tout comme une taxe sur le sucre rend les bonbons plus chers, une
               contribution sur le CO2 rendra plus chers les produits nuisibles
-              au climat. Cela signifie que lorsque vous passez par Carrefour,
-              l&apos;impact climatique des biens se reflète dans le prix. Si
-              vous choisissez d&apos;acheter un concombre qui vient de Chine
-              plutôt que de Provence, le coût environnemental du transport sera
-              reflété dans le prix d&apos;achat.
+              au climat. A titre d’exemple, les biens en provenance de
+              l&apos;étranger auront un coût environnemental lié au transport
+              plus élevé qui se reflètera dans le prix d&apos;achat.
             </P>
             <P>
               Lorsque les sucreries deviennent plus chères, nous en mangeons
@@ -266,17 +264,9 @@ const ThePlan = () => {
             </P>
             <P>
               Pour que M. et Mme Dupont ne paient pas leur mode de vie plus cher
-              qu&apos;aujourd&apos;hui, nous avons recours à une astuce : tous
-              les fonds collectés auprès des pollueurs sont reversés aux
-              citoyens en parts égales. Oui, vous avez bien lu.
-            </P>
-            <P>
-              Cela signifie que si vous achetez moins d&apos;articles nuisibles
-              au climat que le Français moyen, vous finirez par avoir plus
-              d&apos;argent en poche. Même si vous êtes milliardaire, mais que
-              vous évitez de prendre l&apos;avion, que vous vivez dans un petit
-              appartement et vous vous rendez au travail à vélo, vous finirez
-              par être plus riche qu&apos;avant.
+              qu&apos;aujourd&apos;hui, nous avons recours à une astuce : les
+              fonds collectés auprès des pollueurs sont reversés aux citoyens.
+              Oui, vous avez bien lu.
             </P>
             <P>
               De cette façon, nous récompensons les comportements vertueux tout
@@ -331,8 +321,8 @@ const ThePlan = () => {
               Une bonne affaire pour les entreprises
             </h2>
             <P>
-              La révolution facile n&apos;est pas bueno si les emplois vont en
-              Pologne ou en Chine. La bonne nouvelle, c&apos;est que les
+              La révolution facile n&apos;est pas efficace si les emplois vont
+              en Pologne ou en Chine. La bonne nouvelle, c&apos;est que les
               entreprises françaises vont adorer la révolution. Non seulement
               parce que c&apos;est la solution la moins chère, mais aussi parce
               qu&apos;elle leur permet de faire facilement les bons
@@ -382,11 +372,11 @@ const ThePlan = () => {
               résolution du Nouvel An et signez la Proposition citoyenne.
             </P>
             <P>
-              Quand vous aurez fini, reviens et partage avec ta grand-mère, ton
-              oncle climato-sceptique et ton ami hippie. Fais le maintenant.
-              Mettons en route la révolution pour que nous puissions tous nous
-              asseoir et nous concentrer sur les nombreuses autres choses
-              auxquelles nous préférons consacrer notre temps.
+              Quand vous aurez fini, revenez et partagez avec votre grand-mère,
+              votre oncle climato-sceptique et votre ami hippie. Faites le
+              maintenant. Mettons en route la révolution pour que nous puissions
+              tous nous asseoir et nous concentrer sur les nombreuses autres
+              choses auxquelles nous préférons consacrer notre temps.
             </P>
           </FootNoteContainer>
         </div>

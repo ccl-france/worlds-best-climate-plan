@@ -26,9 +26,8 @@ const BehindThePlan = () => {
           </p>
           <p className="sm:text-lg leading-relaxed my-4">
             Cependant, le plan n&apos;est pas quelque chose que nous avons
-            élaboré. L&apos;idée a été initialement soutenue par 27 lauréats du
-            prix Nobel et plus de 3500 économistes, et l&apos;idée a été adaptée
-            à la France, grâce à un certain nombre d&apos;économistes français.
+            élaboré. L&apos;idée est soutenue par 27 lauréats du prix Nobel et
+            plus de 3500 économistes, et par nombre d&apos;économistes français.
           </p>
           <p className="sm:text-lg leading-relaxed my-4">
             Nous sommes également soutenus par des philanthropes.
