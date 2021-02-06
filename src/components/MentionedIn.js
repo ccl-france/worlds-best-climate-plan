@@ -13,7 +13,7 @@ const Image = ({ link, source }) => (
 const MentionedIn = () => (
   <React.Fragment>
     <h2 className="text-2xl text-center font-bold mb-4 mx-auto">
-      Dans les médias :
+      Ils en parlent dans les médias :
     </h2>
     <p className="text-lg text-center mx-auto mb-8">
       Le modèle de revenu climatique a plusieurs fois été mentionné dans les

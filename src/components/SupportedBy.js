@@ -24,12 +24,14 @@ const MentionedIn = () => (
         <p className="max-w-sm mx-auto sm:mx-0">
           Ce n&apos;est pas nous qui avons eu l&apos;idée d&apos;une fiscalité
           climatique équitable. L&apos;idée est bien pensée et soutenue par les
-          scientifiques et les économistes du monde entier. En France, plus de
-          100 chercheurs, entreprises et organisations soutiennent l&apos;idée.
+          scientifiques et les économistes du monde entier. Dans le monde,
+          l&apos;idée est soutenue par 27 lauréats du prix nobel ainsi que 3500
+          économistes. En France, plus de 100 chercheurs, entreprises et
+          organisations soutiennent l&apos;idée.
         </p>
         <p className="mt-4">
           <Link to="/supporters" className="underline">
-            Voir nos soutiens
+            Voir qui nous soutient
           </Link>
         </p>
       </div>

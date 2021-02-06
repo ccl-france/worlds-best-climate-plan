@@ -12,11 +12,14 @@ const Footer = () => (
           <Link className={LinkStyle} to="/">
             Accueil
           </Link>
-          <Link className={LinkStyle} to="/about-the-plan">
-            A propos du plan
+          <Link className={LinkStyle} to="/supporters">
+            Ils nous soutiennent
           </Link>
-          <Link className={LinkStyle} to="/about-us">
-            A propos de nous
+          <Link className={LinkStyle} to="/about-the-plan">
+            Le plan
+          </Link>
+          <Link className={LinkStyle} to="/faq">
+            Foire aux questions
           </Link>
           <Link className={LinkStyle} to="/privacy-policy">
             Politique de confidentialité

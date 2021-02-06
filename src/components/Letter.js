@@ -40,9 +40,10 @@ const Letter = () => (
     </p>
     <p className="my-4">
       Derrière le meilleur plan climat du monde se trouve de nombreux citoyens
-      et associations.{' '}
-      <Link to="/about-us" className="underline">
-        En savoir plus sur nous
+      et associations
+      <br />
+      <Link to="/supporters" className="underline">
+        En savoir plus sur nos soutiens
       </Link>
     </p>
     <Button className="my-4 md:mb-0">

@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { Formik, Form, Field } from 'formik';
 import { FaCircleNotch, FaTimes } from 'react-icons/fa';
 import classNames from 'classnames';
+
 import Button from '../Button';
+import fakeName from '../../utils/fakeName';
 
 const FormField = ({ name, label, type = 'text', className, ...props }) => (
   <Field name={name}>
@@ -31,10 +34,24 @@ const FormField = ({ name, label, type = 'text', className, ...props }) => (
     )}
   </Field>
 );
+FormField.propTypes = {
+  name: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  type: PropTypes.string,
+  className: PropTypes.string,
+};
 
 const SupportForm = ({ modal = false, closeModal, className }) => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [error, setError] = useState(false);
+
+  function generateName(setFieldValue) {
+    return function(e) {
+      setFieldValue('name', fakeName());
+      e.preventDefault();
+    };
+  }
+
   return (
     <section
       className={classNames(
@@ -48,34 +65,13 @@ const SupportForm = ({ modal = false, closeModal, className }) => {
       <div className="mx-auto max-w-lg">
         <Formik
           initialValues={{
-            email: '',
-            firstname: '',
-            lastname: '',
-            zip: '',
+            name: '',
           }}
           validate={values => {
             const errors = {};
-            if (!values.firstname) {
-              errors.firstname = 'Ce champ est obligatoire';
-            }
-            if (!values.lastname) {
-              errors.lastname = 'Ce champ est obligatoire';
-            }
-            if (!values.email) {
-              errors.email = 'Ce champ est obligatoire';
-            } else if (
-              !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-            ) {
-              errors.email = 'Adresse email incorrecte';
-            }
-            const zipNum = parseInt(values.zip, 10);
-            if (
-              isNaN(zipNum) ||
-              values.zip.length !== 5 ||
-              zipNum > 99999 ||
-              zipNum < 0
-            ) {
-              errors.zip = 'Le code postal doit être composé de 5 chiffres';
+            if (!values.name) {
+              errors.name =
+                'Un nom est obligatoire. Vous souhaitez rester anonyme? Cliquez sur le bouton.';
             }
             return errors;
           }}
@@ -100,30 +96,27 @@ const SupportForm = ({ modal = false, closeModal, className }) => {
               });
           }}
         >
-          {({ isSubmitting }) => (
+          {({ isSubmitting, setFieldValue }) => (
             <Form className="md:max-w-2xl mx-auto">
               {isSubmitted && !error && (
                 <div>
                   <h2 className="text-xl font-bold mb-4 sm:text-2xl sm:text-center">
                     Merci de votre soutien
                   </h2>
-                  <p className="mb-3 sm:mb-8 sm:text-center">
-                    N&apos;oubliez pas de vérifier votre adresse e-mail pour
-                    confirmer votre inscription
-                  </p>
                 </div>
               )}
               {(!isSubmitted || error) && (
                 <React.Fragment>
                   <h2 className="text-xl font-bold mb-4 sm:text-2xl sm:text-center">
-                    Soutenez nous et restez au courant
+                    Je suis un citoyen
                   </h2>
+
                   <p className="mb-3 text-sm sm:text-base sm:mb-8 sm:text-center">
                     Le soutien des citoyens est la première étape pour
                     l&apos;introduction d&apos;une taxe climatique en France et
-                    dans le monde. Inscrivez vous pour recevoir des nouvelles et
-                    pour soutenir la lutte contre le réchauffement climatique et
-                    le clivage social.
+                    dans le monde. Montrez votre soutien publiquement pour aider
+                    les politiques à prendre conscience de l&apos;ampleur de
+                    cette demande.
                   </p>
                   {error && (
                     <div
@@ -133,31 +126,15 @@ const SupportForm = ({ modal = false, closeModal, className }) => {
                       <span>Une erreur à eu lieu. Veuillez réessayer.</span>
                     </div>
                   )}
-                  <div className="sm:flex sm:-mx-2">
+                  <div className="text-center mb-10">
                     <FormField
                       className="w-full sm:w-1/2 sm:mx-2"
-                      name="firstname"
-                      label="Prénom"
+                      name="name"
+                      label="Votre nom"
                     />
-                    <FormField
-                      className="w-full sm:w-1/2 sm:mx-2"
-                      name="lastname"
-                      label="Nom de famille"
-                    />
-                  </div>
-                  <div className="sm:flex sm:-mx-2 mb-8">
-                    <FormField
-                      className="w-full sm:w-2/3 sm:mx-2"
-                      name="email"
-                      type="email"
-                      label="Email"
-                    />
-                    <FormField
-                      className="w-full sm:w-1/3 sm:mx-2"
-                      name="zip"
-                      label="Code postal"
-                      maxLength={5}
-                    />
+                    <Button onClick={generateName(setFieldValue)} className="">
+                      Je préfère rester anonyme
+                    </Button>
                   </div>
                   {isSubmitting ? (
                     <div className="text-4xl text-green-500 sm:flex sm:justify-center">
@@ -167,26 +144,19 @@ const SupportForm = ({ modal = false, closeModal, className }) => {
                     </div>
                   ) : (
                     <Button type="submit" large className="block sm:mx-auto">
-                      Inscription
+                      Donner mon soutien
                     </Button>
                   )}
-                  {/* 
-                  ADD THIS WHEN WE HAVE A LINK TO THE BORGERFORSLAG
-                  {!modal && (
-                    <p className="mt-8 text-center">
-                      Pssst ... har du husket at skrive under på{' '}
-                      <a
-                        href="/"
-                        target="_blank"
-                        rel="noopener"
-                        className="underline text-green-700 hover:text-green-500"
-                      >
-                        borgerforslaget
-                      </a>
-                      ?
-                    </p>
-                  )}
-                  */}
+
+                  <hr className="m-10" />
+
+                  <h2 className="text-xl font-bold mb-4 sm:text-2xl sm:text-center">
+                    Je suis une association
+                  </h2>
+                  <p className="mb-3 text-sm sm:text-base sm:mb-8 sm:text-center">
+                    Contactez nous à l&apos;addresse
+                    lemeilleurplanclimatdumonde@gmail.com pour en discuter.
+                  </p>
                 </React.Fragment>
               )}
               {modal && (
@@ -212,6 +182,11 @@ const SupportForm = ({ modal = false, closeModal, className }) => {
       </div>
     </section>
   );
+};
+SupportForm.propTypes = {
+  modal: PropTypes.boolean,
+  closeModal: PropTypes.func.isRequired,
+  className: PropTypes.string.isRequired,
 };
 
 export default SupportForm;

@@ -3,7 +3,6 @@ import React from 'react';
 import useBreakpoint from '../hooks/useBreakpoint';
 import Layout from '../components/Layout';
 import Button from '../components/Button';
-import FootNoteContainer from '../components/FootNote';
 import SEO from '../components/SEO';
 import Letter from '../components/Letter';
 import HowItWorks from '../components/HowItWorks';
@@ -20,7 +19,7 @@ const Index = () => {
       <section
         className="pt-24 relative mb-64 bg-cover bg-green-900"
         style={{
-          backgroundImage: 'url(../../background.png)',
+          backgroundImage: 'url(../../background.gif)',
           backgroundPosition: breakpoint.sm
             ? '50% -80px'
             : breakpoint.xs
@@ -46,9 +45,7 @@ const Index = () => {
             rel="noopener noreferrer"
           >
             <Button large className="block mx-auto my-8 sm:my-16">
-              Signez la
-              <span className="hidden sm:inline"> proposition citoyenne</span>
-              &nbsp;&nbsp;✍️
+              Rejoignez le mouvement citoyen
             </Button>
           </a>
 

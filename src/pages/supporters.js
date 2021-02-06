@@ -4,11 +4,10 @@ import SEO from '../components/SEO';
 import Supporter from '../components/Supporter';
 
 const supporters = [
-  // ['logo', '350.svg', '', ''],
+  ['logo', 'saving-our-planet.jpg', 'Saving our Planet', ''],
   ['logo', 'ccl.png', "Citizens' Climate Lobby", ''],
-  // ['logo', 'dgs.png', '', ''],
-  // ['logo', 'frej.png', '', ''],
-  // ['logo', 'ungeklimaraadet.png', '', ''],
+  ['logo', 'citoyens-pour-climat.png', 'Citoyens pour le climat', ''],
+  ['logo', 'reseau-action-climat.svg', 'Réseau action climat', ''],
   // ['person', 'background.jpg', 'Alpha Albert', 'Økonom'],
 ];
 
@@ -16,7 +15,7 @@ const Supporters = () => {
   return (
     <Layout>
       <SEO
-        title="Soutiens"
+        title="Ils nous soutiennent"
         description="Découvrez qui soutient le meilleur plan climat du monde"
       />
       <section className="w-full max-w-4xl mx-auto py-16 sm:pb-32 px-6">
@@ -29,6 +28,17 @@ const Supporters = () => {
             France, plus de 100 chercheurs, entreprises, et organisations
             soutiennent cette idée.
           </p>
+          <h2 className="text-2x1 font-bold mb-4">Experts</h2>
+          <p className="leading-relaxed mb-12">
+            A rédiger...
+            {/* TODO */}
+          </p>
+          <h2 className="text-2x1 font-bold mb-4">Citoyens</h2>
+          <p className="leading-relaxed mb-12">
+            A rédiger...
+            {/* TODO */}
+          </p>
+          <h2 className="text-2x1 font-bold mb-4">Associations</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {supporters.map(([type, image, name, title], i) => (
               <Supporter
